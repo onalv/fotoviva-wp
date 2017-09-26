@@ -1,22 +1,19 @@
-<?php //the_content(); ?>
-<?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
-
 <section id="container-hero">
     <div class="container-fluid">
         <div class="hero owl-carousel">
             <div class="owl-item" id="owl-1">
                 <a href="#">
-                    <img src="img/bg-hero-1.jpg" alt="Hero 1">
+                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/bg-hero-1.jpg" alt="Hero 1">
                 </a>
             </div>
             <div class="owl-item" id="owl-2">
                 <a href="#">
-                    <img src="img/bg-hero-2.jpg" alt="Hero 1">
+                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/bg-hero-2.jpg" alt="Hero 1">
                 </a>
             </div>
             <div class="owl-item" id="owl-3">
                 <a href="#">
-                    <img src="img/bg-hero-3.jpg" alt="Hero 1">
+                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/bg-hero-3.jpg" alt="Hero 1">
                 </a>
             </div>
         </div>
@@ -25,99 +22,73 @@
 
 <section id="courses">
     <div class="container">
-        <!--<h1 class="text-center">Nuestros <span>Cursos</span></h1>-->
-        <div id="courses-wrapper">
-            <!--<div class="row">
-                <div class="col">
-                    <div class="course-box">
-                        <img src="img/course-1.jpg" alt="Course 1">
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="course-box">
-                        <img src="img/course-2.jpg" alt="Course 1">
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="course-box">
-                        <img src="img/course-1.jpg" alt="Course 1">
-                    </div>
-                </div>
-            </div>-->
-
             <div class="row">
-                <div class="col-md-4 grid">
-                    <figure class="effect-dexter">
-                        <img src="img/course-1.jpg" alt=""/>
+
+
+                <div class="col-12 col-md-6 col-xl-4 grid">
+                    <figure class="effect-milo">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-1.jpg" alt="img11"/>
                         <figcaption>
-                            <h2>Fotografía contemporanea</h2>
-                            <p>Dexter had his own strange way. You could watch him training ants.</p>
+                            <h2>Fotografía <span>Básica</span></h2>
+                            <p>Milo went to the woods. He took a fun ride and never came back.</p>
                             <a href="#">View more</a>
                         </figcaption>
                     </figure>
                 </div>
-                <div class="col-md-4 grid">
-                    <figure class="effect-dexter">
-                        <img src="img/course-2.jpg" alt="img12"/>
+                <div class="col-12 col-md-6 col-xl-4 grid">
+                    <figure class="effect-milo">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-2.jpg" alt="img11"/>
                         <figcaption>
-                            <h2>Fotografía básica</h2>
-                            <p>Dexter had his own strange way. You could watch him training ants.</p>
+                            <h2>Fotografía <span>Contemporánea</span></h2>
+                            <p>Milo went to the woods. He took a fun ride and never came back.</p>
                             <a href="#">View more</a>
                         </figcaption>
                     </figure>
                 </div>
-                <div class="col-md-4 grid">
-                    <figure class="effect-dexter">
-                        <img src="img/course-3.jpg" alt="img19"/>
+                <div class="col-12 col-md-6 col-xl-4 grid">
+                    <figure class="effect-milo">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-3.jpg" alt="img11"/>
                         <figcaption>
-                            <h2>Proyectos fotográficos personales</h2>
-                            <p>Dexter had his own strange way. You could watch him training ants.</p>
+                            <h2>Retrato de <span>Moda</span></h2>
+                            <p>Milo went to the woods. He took a fun ride and never came back.</p>
                             <a href="#">View more</a>
                         </figcaption>
                     </figure>
                 </div>
-                <div class="col-md-4 grid">
-                    <figure class="effect-dexter">
-                        <img src="img/course-4.jpg" alt=""/>
+                <div class="col-12 col-md-6 col-xl-4 grid">
+                    <figure class="effect-milo">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-4.jpg" alt="img11"/>
                         <figcaption>
-                            <h2>Fotografía contemporanea</h2>
-                            <p>Dexter had his own strange way. You could watch him training ants.</p>
+                            <h2>Fotografía para <span>Cine</span></h2>
+                            <p>Milo went to the woods. He took a fun ride and never came back.</p>
                             <a href="#">View more</a>
                         </figcaption>
                     </figure>
                 </div>
-                <div class="col-md-4 grid">
-                    <figure class="effect-dexter">
-                        <img src="img/course-5.jpg" alt="img12"/>
+                <div class="col-12 col-md-6 col-xl-4 grid">
+                    <figure class="effect-milo">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-5.jpg" alt="img11"/>
                         <figcaption>
-                            <h2>Retrato de moda</h2>
-                            <p>Dexter had his own strange way. You could watch him training ants.</p>
+                            <h2>Taller de <span>Arte</span></h2>
+                            <p>Milo went to the woods. He took a fun ride and never came back.</p>
                             <a href="#">View more</a>
                         </figcaption>
                     </figure>
                 </div>
-                <div class="col-md-4 grid">
-                    <figure class="effect-dexter">
-                        <img src="img/course-6.jpg" alt="img19"/>
+                <div class="col-12 col-md-6 col-xl-4 grid">
+                    <figure class="effect-milo">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-6.jpg" alt="img11"/>
                         <figcaption>
-                            <h2>Fotografía para cine</h2>
-                            <p>Dexter had his own strange way. You could watch him training ants.</p>
+                            <h2>Fotografía <span>Avanzada</span></h2>
+                            <p>Milo went to the woods. He took a fun ride and never came back.</p>
                             <a href="#">View more</a>
                         </figcaption>
                     </figure>
                 </div>
+
+
             </div>
-        </div>
         <div class="div-btn text-center">
-            <!--<a href="#" class="btn btn-lg btn-info">Ver todos los cursos</a>-->
-            <!--<div class="svg-wrapper">-->
-            <!--<a href="#">-->
-            <!--<svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">-->
-            <!--<rect class="shape" height="60" width="320" />-->
-            <!--<div class="text">VER CURSOS</div>-->
-            <!--</svg>-->
-            <!--</a>-->
-            <!--</div>-->
             <a href="#" class="btn btn-lg" id="btn-cursos">Ver cursos</a>
         </div>
     </div>

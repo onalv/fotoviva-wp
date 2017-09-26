@@ -31,9 +31,28 @@
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS
+
+        //Owl carousel configuration
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items:1,
+            loop:true,
+            autoplay:true,
+            autoplayTimeout:3500,
+            // dots: true
+        });
       }
     },
-    // About us page, note the change from about-us to about_us.
+    // Us page
+    'nosotros': {
+        init: function() {
+            // JavaScript to be fired on the home page
+        },
+        finalize: function() {
+            // JavaScript to be fired on the home page, after the init JS
+        }
+    },
+  // About us page, note the change from about-us to about_us.
     'about_us': {
       init: function() {
         // JavaScript to be fired on the about us page
