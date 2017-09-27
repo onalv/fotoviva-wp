@@ -1,4 +1,18 @@
-<footer id="contacto">
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo-white.png" width="120px" alt="Logo Fotoviva blanco"></a>
+            </div>
+            <div class="col-12 col-md-4">
+
+            </div>
+            <div class="col-12 col-md-4"></div>
+        </div>
+    </div>
+</footer>
+
+<!--<footer id="contacto">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -27,4 +41,4 @@
             </div>
         </div>
     </div>
-</footer>
+</footer>-->

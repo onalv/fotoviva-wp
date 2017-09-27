@@ -22,7 +22,7 @@ use Roots\Sage\Wrapper;
       <div class="content"> <!--taken out row class from div-->
 <!--        <main class="main">-->
           <?php include Wrapper\template_path(); ?>
-<!--        </main><!-- /.main -->-->
+<!--        </main><!-- /.main -->
         <?php if (Setup\display_sidebar()) : ?>
           <aside class="sidebar">
             <?php include Wrapper\sidebar_path(); ?>
