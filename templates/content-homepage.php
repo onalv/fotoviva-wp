@@ -20,132 +20,94 @@
     </div>
 </section>
 
-<section id="courses">
+<section id="container-courses">
     <div class="container">
-            <div class="row">
+        <div class="row">
 
 
-                <div class="col-12 col-md-6 col-xl-4 grid">
-                    <figure class="effect-milo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-1.jpg" alt="img11"/>
-                        <figcaption>
-                            <h2>Fotografía <span>Básica</span></h2>
-                            <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                            <a href="#">View more</a>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 grid">
-                    <figure class="effect-milo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-2.jpg" alt="img11"/>
-                        <figcaption>
-                            <h2>Fotografía <span>Contemporánea</span></h2>
-                            <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                            <a href="#">View more</a>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 grid">
-                    <figure class="effect-milo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-3.jpg" alt="img11"/>
-                        <figcaption>
-                            <h2>Retrato de <span>Moda</span></h2>
-                            <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                            <a href="#">View more</a>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 grid">
-                    <figure class="effect-milo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-4.jpg" alt="img11"/>
-                        <figcaption>
-                            <h2>Fotografía para <span>Cine</span></h2>
-                            <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                            <a href="#">View more</a>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 grid">
-                    <figure class="effect-milo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-5.jpg" alt="img11"/>
-                        <figcaption>
-                            <h2>Taller de <span>Arte</span></h2>
-                            <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                            <a href="#">View more</a>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 grid">
-                    <figure class="effect-milo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-6.jpg" alt="img11"/>
-                        <figcaption>
-                            <h2>Fotografía <span>Avanzada</span></h2>
-                            <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                            <a href="#">View more</a>
-                        </figcaption>
-                    </figure>
-                </div>
-
-
+            <div class="col-12 col-md-6 col-xl-4 grid">
+                <figure class="effect-milo">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-1.jpg" alt="img11"/>
+                    <figcaption>
+                        <h2>Fotografía <span>Básica</span></h2>
+                        <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
             </div>
-        <div class="div-btn text-center">
-            <a href="#" class="btn btn-lg" id="btn-cursos">Ver cursos</a>
+            <div class="col-12 col-md-6 col-xl-4 grid">
+                <figure class="effect-milo">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-2.jpg" alt="img11"/>
+                    <figcaption>
+                        <h2>Fotografía <span>Contemporánea</span></h2>
+                        <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 grid">
+                <figure class="effect-milo">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-3.jpg" alt="img11"/>
+                    <figcaption>
+                        <h2>Retrato de <span>Moda</span></h2>
+                        <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 grid">
+                <figure class="effect-milo">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-4.jpg" alt="img11"/>
+                    <figcaption>
+                        <h2>Fotografía para <span>Cine</span></h2>
+                        <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 grid">
+                <figure class="effect-milo">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-5.jpg" alt="img11"/>
+                    <figcaption>
+                        <h2>Taller de <span>Arte</span></h2>
+                        <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 grid">
+                <figure class="effect-milo">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-6.jpg" alt="img11"/>
+                    <figcaption>
+                        <h2>Fotografía <span>Avanzada</span></h2>
+                        <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+            </div>
+
+
+        </div>
+        <div class="text-center">
+            <a href="#" class="btn btn-lg" id="btn-courses">Ver cursos</a>
         </div>
     </div>
 </section>
 
-<section id="services" class="text-center">
-    <h1>Servicios</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cupiditate mollitia neque sit suscipit temporibus unde.</p>
-    <a href="#" class="btn btn-lg btn-light">Conoce nuestros servicios</a>
-</section>
-
-<section id="news">
+<section id="container-new" class="text-center">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-8" id="div-left-news">
-            </div>
-            <div class="col-4">
-                <div id="div-right-news">
-                    <h1>Lo <span>+Nuevo</span></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque consectetur fuga fugiat neque nisi odio quae rerum soluta, voluptas!</p>
-                    <ul>
-                        <li>Eventos Recientes</li>
-                        <li>Colaboraciones</li>
-                        <li>Viajes</li>
-                        <li>Prácticas</li>
-                        <li>Exhibiciones</li>
-                        <li>Prensa</li>
-                    </ul>
-                    <a href="#" class="btn btn-lg btn-primary">Más información</a>
-                </div>
+            <div class="col-12 col-md-6 mr-auto ml-auto">
+                <h1>Lo +Nuevo</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cupiditate mollitia neque sit suscipit temporibus unde.</p>
+                <a href="#" class="btn btn-lg btn-light">Más información</a>
             </div>
         </div>
     </div>
 </section>
 
-<section id="exhibitions">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-4">
-                <div id="div-left-exhibitions">
-                    <h1>Exhibiciones</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque consectetur fuga fugiat neque nisi odio quae rerum soluta, voluptas!</p>
-                    <ul>
-                        <li>Selección oficial de alumnos</li>
-                        <li>Selección oficial de maestros</li>
-                        <li>Muestras colectivas</li>
-                    </ul>
-                    <a href="#" class="btn btn-lg btn-warning">Ver galerías</a>
-                </div>
-            </div>
-            <div class="col-8" id="div-right-exhibitions">
-            </div>
-        </div>
-    </div>
-</section>
 
-<section id="us">
+<section id="container-us">
     <div class="container-fluid">
         <div class="row" id="row-us">
             <div class="col-6 ml-auto">
