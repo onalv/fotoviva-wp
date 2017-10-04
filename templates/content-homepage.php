@@ -97,20 +97,30 @@
 <section id="carousels">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 div-carousel text-center">
+            <div class="col-md-6 div-carousel text-center" id="div-exhibitions">
                 <h1>Exhibiciones</h1>
-                <div class="owl-two owl-carousel owl-theme" id="div-exhibitions">
+                <div class="owl-two owl-carousel owl-theme">
                     <div class="owl2-item">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/ex-sm-1.jpg" alt="Exhibición 1" class="img-fluid">
-                            <figcaption>
-                                <h4>Selección oficial de alumnos</h4>
-                            </figcaption>
+                                <a href="<?php echo get_template_directory_uri(); ?>/dist/images/ex-lg-1.jpg" data-lightbox="exhibition-1">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/ex-sm-1.jpg" alt="Exhibición 1" class="img-fluid">
+                                </a>
+                                <a href="https://www.worldpressphoto.org/sites/default/files/styles/carousal/public/IMG_9197.JPG" data-lightbox="exhibition-1"></a>
+                                <a href="http://www.magnin-a.com/cspdocs/exhibition/images/perpignan_yesican_diop_2016_2.jpg" data-lightbox="exhibition-1"></a>
+                                <figcaption>
+                                    <h4>Selección oficial de alumnos</h4>
+                                </figcaption>
+
                         </figure>
                     </div>
                     <div class="owl2-item">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/ex-sm-2.jpg" alt="Exhibición 2" class="img-fluid">
+                            <a href="<?php echo get_template_directory_uri(); ?>/dist/images/ex-lg-2.jpg" data-lightbox="exhibition-2">
+                                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/ex-sm-2.jpg" alt="Exhibición 2" class="img-fluid">
+                            </a>
+                            <a href="https://chidm.com/visual/img-workatplay.jpg" data-lightbox="exhibition-2"></a>
+                            <a href="http://www.graphicthoughtfacility.com/media/uploads/images/KG-1-WEB_5.jpg" data-lightbox="exhibition-2"></a>
+                            <a href="http://www.adjaye.com/site/assets/files/1841/face_fashion_project_1-1.jpg" data-lightbox="exhibition-2"></a>
                             <figcaption>
                                 <h4>Selección oficial de maestros</h4>
                             </figcaption>
@@ -118,17 +128,22 @@
                     </div>
                     <div class="owl2-item">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/ex-sm-3.jpg" alt="Exhibición 3" class="img-fluid">
+                            <a href="<?php echo get_template_directory_uri(); ?>/dist/images/ex-lg-3.jpg" data-lightbox="exhibition-3">
+                                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/ex-sm-3.jpg" alt="Exhibición 3" class="img-fluid">
+                            </a>
+                            <a href="https://www.inspireme.ie/uploads/events/1500630014.2467_014_portrait_century.jpg" data-lightbox="exhibition-3"></a>
+                            <a href="https://d1inegp6v2yuxm.cloudfront.net/royal-academy/image/upload/c_limit,f_auto,w_1200/qitaersky1aik2cyiuij.jpg" data-lightbox="exhibition-3"></a>
                             <figcaption>
                                 <h4>Muestras colectivas</h4>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
+                <a href="#" class="btn btn-lg" id="btn-exhibitions">Ver Exhibiciones</a>
             </div>
-            <div class="col-md-6 div-carousel text-center">
+            <div class="col-md-6 div-carousel text-center" id="div-services">
                 <h1>Servicios</h1>
-                <div class="owl-three owl-carousel owl-theme" id="div-services">
+                <div class="owl-three owl-carousel owl-theme">
                     <div class="owl3-item" id="owl3-1">
                         <div class="col-md-8 mr-auto ml-auto div-text">
                             <img src="<?php echo get_template_directory_uri(); ?>/dist/images/services-1.jpg" alt="Servicio 1" class="img-fluid">

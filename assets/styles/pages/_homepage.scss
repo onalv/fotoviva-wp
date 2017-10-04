@@ -203,14 +203,44 @@ figure.effect-milo:hover p {
 section#carousels {
   .div-carousel {
     padding: 50px;
+    color: #696969;
 
     h1 {
       margin-bottom: 20px;
+      padding-bottom: 8px;
+      border-bottom: solid 1px darkgray;
     }
 
-    .div-text {
+    &#div-exhibitions {
+      background-color: #f0f8ff;
+
+      h4 {
+        margin-top: 15px;
+      }
+
+      #btn-exhibitions {
+        margin-top: 20px;
+        background-color: #b5b3a6;
+        color: #fff;
+      }
+    }
+
+    &#div-services {
+      background-color: #f5f5f5;
+
+      .owl-stage-outer {
+        padding-bottom: 5px;
+      }
+
+      .div-text {
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 3px 3px 15px 0px #d3d3d3;
+        padding: 10px 30px;
+      }
+
       img {
-        margin-bottom: 20px;
+        margin: 35px 0 40px;
       }
 
       p {
@@ -218,7 +248,6 @@ section#carousels {
       }
     }
   }
-
 }
 
 
