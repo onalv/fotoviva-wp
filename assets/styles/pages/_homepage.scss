@@ -198,6 +198,30 @@ figure.effect-milo:hover p {
 }
 
 
+/* *** Carousels servicios & Exhibiciones *** */
+
+section#carousels {
+  .div-carousel {
+    padding: 50px;
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .div-text {
+      img {
+        margin-bottom: 20px;
+      }
+
+      p {
+        text-align: justify;
+      }
+    }
+  }
+
+}
+
+
 /* *** Lo +Nuevo Section *** */
 
 #container-new {

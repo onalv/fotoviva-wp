@@ -33,13 +33,26 @@
         // JavaScript to be fired on the home page, after the init JS
 
         //Owl carousel configuration
-        var owl = $('.owl-carousel');
-        owl.owlCarousel({
+        $('.owl-one').owlCarousel({
             items:1,
             loop:true,
             autoplay:true,
             autoplayTimeout:3500,
-            // dots: true
+            dots: false
+        });
+
+        $('.owl-two').owlCarousel({
+          items:1,
+          loop:true,
+          autoplay:true,
+          autoplayTimeout:3000
+        });
+
+        $('.owl-three').owlCarousel({
+          items:1,
+          loop:true,
+          autoplay:true,
+          autoplayTimeout:4000
         });
       }
     },

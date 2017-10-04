@@ -1,6 +1,6 @@
 <section id="container-hero">
     <div class="container-fluid">
-        <div class="hero owl-carousel">
+        <div class="hero owl-one owl-carousel owl-theme">
             <div class="owl-item" id="owl-1">
                 <a href="#">
                     <img src="<?php echo get_template_directory_uri(); ?>/dist/images/bg-hero-1.jpg" alt="Hero 1">
@@ -90,6 +90,73 @@
         </div>
         <div class="text-center">
             <a href="#" class="btn btn-lg" id="btn-courses">Ver cursos</a>
+        </div>
+    </div>
+</section>
+
+<section id="carousels">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 div-carousel text-center">
+                <h1>Exhibiciones</h1>
+                <div class="owl-two owl-carousel owl-theme" id="div-exhibitions">
+                    <div class="owl2-item">
+                        <figure>
+                            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/ex-sm-1.jpg" alt="Exhibición 1" class="img-fluid">
+                            <figcaption>
+                                <h4>Selección oficial de alumnos</h4>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="owl2-item">
+                        <figure>
+                            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/ex-sm-2.jpg" alt="Exhibición 2" class="img-fluid">
+                            <figcaption>
+                                <h4>Selección oficial de maestros</h4>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="owl2-item">
+                        <figure>
+                            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/ex-sm-3.jpg" alt="Exhibición 3" class="img-fluid">
+                            <figcaption>
+                                <h4>Muestras colectivas</h4>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 div-carousel text-center">
+                <h1>Servicios</h1>
+                <div class="owl-three owl-carousel owl-theme" id="div-services">
+                    <div class="owl3-item" id="owl3-1">
+                        <div class="col-md-8 mr-auto ml-auto div-text">
+                            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/services-1.jpg" alt="Servicio 1" class="img-fluid">
+<!--                            <h2>Renta de Estudio</h2>-->
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur facilis inventore obcaecati odio officia quam quod sapiente? Cumque harum ipsa nam quidem. Adipisci aut ducimus eius esse laboriosam reprehenderit sunt.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur facilis inventore obcaecati odio officia quam quod sapiente? Cumque harum ipsa nam quidem. Adipisci aut ducimus eius esse laboriosam reprehenderit sunt.</p>
+                        </div>
+                    </div>
+                    <div class="owl3-item" id="owl3-2">
+                        <div class="col-md-8 mr-auto ml-auto div-text">
+                            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/services-2.jpg" alt="Servicio 2" class="img-fluid">
+<!--                            <h2>Renta de Aulas</h2>-->
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur corporis cupiditate doloremque dolorum, ea eligendi harum illum incidunt iste laborum magnam molestias necessitatibus neque perspiciatis, recusandae suscipit temporibus voluptatibus.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur corporis cupiditate doloremque dolorum, ea eligendi harum illum incidunt iste laborum magnam molestias necessitatibus neque perspiciatis, recusandae suscipit temporibus voluptatibus.</p>
+                        </div>
+                    </div>
+                    <div class="owl3-item" id="owl3-3">
+                        <div class="col-md-8 mr-auto ml-auto div-text">
+                            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/services-3.jpg" alt="Servicio 3" class="img-fluid">
+<!--                            <h2>Asesorías</h2>-->
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita natus quasi rerum similique unde. Dolorum, est eum ex inventore minus molestias nobis nulla provident quas quo reprehenderit veritatis vero voluptas.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita natus quasi rerum similique unde. Dolorum, est eum ex inventore minus molestias nobis nulla provident quas quo reprehenderit veritatis vero voluptas.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita natus quasi rerum similique unde. Dolorum, est eum ex inventore minus molestias nobis nulla provident quas quo reprehenderit veritatis vero voluptas.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 </section>
