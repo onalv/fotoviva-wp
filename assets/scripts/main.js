@@ -75,7 +75,29 @@
             // JavaScript to be fired on the home page
         },
         finalize: function() {
-            // JavaScript to be fired on the home page, after the init JS
+          $('.owl-one').owlCarousel({
+              items:1,
+              loop:true,
+              autoplay:true,
+              autoplayTimeout:3500,
+              dots: false
+          });
+
+          $('.owl-two').owlCarousel({
+              items:4,
+              loop:true,
+              autoplay:true,
+              autoplayTimeout: 4000,
+              margin: 30
+          });
+
+          $('.owl-three').owlCarousel({
+              items:4,
+              loop:true,
+              autoplay:true,
+              autoplayTimeout: 5000,
+              margin: 30
+          });
         }
     },
   // About us page, note the change from about-us to about_us.

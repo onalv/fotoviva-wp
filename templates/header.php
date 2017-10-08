@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
         <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>">
             <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo-black.png" alt="Logo Fotoviva" class="img-logo">
