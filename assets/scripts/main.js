@@ -21,7 +21,14 @@
         // JavaScript to be fired on all pages
       },
       finalize: function() {
-        // JavaScript to be fired on all pages, after page specific JS is fired
+        //Add shrinking to menu on scroll
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.img-logo').addClass('shrink');
+            } else {
+                $('.img-logo').removeClass('shrink');
+            }
+        });
       }
     },
     // Home page
@@ -55,6 +62,7 @@
           autoplayTimeout:4000
         });
 
+        //options for lightbox
         lightbox.option({
           'wrapAround': true,
           'albumLabel': "Imagen %1 de %2"

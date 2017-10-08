@@ -1,0 +1,14 @@
+nav.navbar {
+  background-color: white;
+
+  a.navbar-brand {
+    img {
+      width: 160px;
+      transition: all 0.5s ease;
+
+      &.shrink {
+        width: 80px;
+      }
+    }
+  }
+}
