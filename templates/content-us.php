@@ -3,17 +3,17 @@
         <div class="hero owl-one owl-carousel owl-theme">
             <div class="owl-item" id="owl-1">
                 <a href="#">
-                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/bg-hero-1.jpg" alt="Hero 1">
+                    <img src="https://placeimg.com/1600/400/any" alt="Hero 1">
                 </a>
             </div>
             <div class="owl-item" id="owl-2">
                 <a href="#">
-                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/bg-hero-2.jpg" alt="Hero 1">
+                    <img src="https://placeimg.com/1620/400/any" alt="Hero 1">
                 </a>
             </div>
             <div class="owl-item" id="owl-3">
                 <a href="#">
-                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/bg-hero-3.jpg" alt="Hero 1">
+                    <img src="https://placeimg.com/1610/400/any" alt="Hero 1">
                 </a>
             </div>
         </div>
