@@ -109,32 +109,13 @@
           var $grid = $('.grid').isotope({
               itemSelector: '.element-item',
               layoutMode: 'fitRows',
-              getSortData: {
-                  name: '.name',
-                  symbol: '.symbol',
-                  number: '.number parseInt',
-                  category: '[data-category]',
-                  weight: function( itemElem ) {
-                      var weight = $( itemElem ).find('.weight').text();
-                      return parseFloat( weight.replace( /[\(\)]/g, '') );
-                  }
-              },
               filter: '*'
           });
-
-          // filter functions
-          var filterFns = {
-              // show if number is greater than 50
-
-          };
 
           // bind filter button click
           $('#filters').on( 'click', 'button', function() {
               var filterValue = $( this ).attr('data-filter');
-              // use filterFn if matches value
-              filterValue = filterFns[ filterValue ] || filterValue;
               $grid.isotope({ filter: filterValue });
-
           });
 
           // change is-checked class on buttons
