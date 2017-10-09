@@ -10,7 +10,8 @@
     "bootstrap": "git://github.com/twbs/bootstrap.git#v4.0.0-beta",
     "popper.js": "^1.12.3",
     "owl.carousel": "^2.2.1",
-    "lightbox2": "^2.9.0"
+    "lightbox2": "^2.9.0",
+    "isotope": "^3.0.4"
   },
   "overrides": {
     "owl.carousel": {
@@ -24,6 +25,11 @@
       "main": [
         "./dist/css/lightbox.min.css",
         "./dist/js/lightbox.min.js"
+      ]
+    },
+    "isotope": {
+      "main": [
+        "./dist/isotope.pkgd.min.js"
       ]
     }
   }
