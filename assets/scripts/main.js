@@ -128,6 +128,17 @@
           });
       }
     },
+    'exhibiciones': {
+        init: function() {
+
+        },
+        finalize: function() {
+            lightbox.option({
+                'wrapAround': true,
+                'albumLabel': "Imagen %1 de %2"
+            });
+        }
+    },
   // About us page, note the change from about-us to about_us.
     'about_us': {
       init: function() {

@@ -30,7 +30,8 @@
     "isotope": {
       "main": [
         "./dist/isotope.pkgd.min.js"
-      ]
+      ],
+      "dependencies": {}
     }
   }
 }

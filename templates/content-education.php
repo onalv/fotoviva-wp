@@ -1,4 +1,3 @@
-
 <section id="container-page-education">
     <div class="container">
         <div id="filters" class="row button-group">
@@ -45,8 +44,6 @@
             <div class="col-4 element-item masterclass" data-category="masterclass">
                 <img src="https://placeimg.com/860/860/any" alt="Curso" class="img-fluid">
             </div>
-
-
         </div>
     </div>
 </section>
