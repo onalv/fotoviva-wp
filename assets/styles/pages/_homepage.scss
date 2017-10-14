@@ -5,9 +5,6 @@
     padding: 0;
 
     .hero {
-      //height: 400px;
-      //width: 100%;
-      //color: #f00;
 
       .owl-item {
         width: 100%;
@@ -271,12 +268,13 @@ section#carousels {
 /* *** Nosotros Section *** */
 
 #container-us {
+  background: url("../images/bg-us.jpg");
+
   #row-us {
-    background: url("../images/bg-us.jpg");
     height: 670px;
 
     #div-us-text {
-      padding: 80px 15% 0 0;
+      padding: 50px 0;
       text-align: center;
 
       h1 {
@@ -286,7 +284,7 @@ section#carousels {
       }
 
       p {
-        text-align: left;
+        text-align: justify;
         margin-bottom: 30px;
       }
     }

@@ -61,12 +61,6 @@
           autoplay:true,
           autoplayTimeout:4000
         });
-
-        //options for lightbox
-        lightbox.option({
-          'wrapAround': true,
-          'albumLabel': "Imagen %1 de %2"
-        });
       }
     },
     // Us page

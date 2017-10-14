@@ -31,7 +31,7 @@
                     <figcaption>
                         <h2>Fotografía <span>Básica</span></h2>
                         <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                        <a href="#">View more</a>
+                        <a href="<?php echo esc_url(home_url('/')) ?>educacion">View more</a>
                     </figcaption>
                 </figure>
             </div>
@@ -41,7 +41,7 @@
                     <figcaption>
                         <h2>Fotografía <span>Contemporánea</span></h2>
                         <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                        <a href="#">View more</a>
+                        <a href="<?php echo esc_url(home_url('/')) ?>educacion">View more</a>
                     </figcaption>
                 </figure>
             </div>
@@ -51,7 +51,7 @@
                     <figcaption>
                         <h2>Retrato de <span>Moda</span></h2>
                         <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                        <a href="#">View more</a>
+                        <a href="<?php echo esc_url(home_url('/')) ?>educacion">View more</a>
                     </figcaption>
                 </figure>
             </div>
@@ -61,7 +61,7 @@
                     <figcaption>
                         <h2>Fotografía para <span>Cine</span></h2>
                         <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                        <a href="#">View more</a>
+                        <a href="<?php echo esc_url(home_url('/')) ?>educacion">View more</a>
                     </figcaption>
                 </figure>
             </div>
@@ -71,7 +71,7 @@
                     <figcaption>
                         <h2>Taller de <span>Arte</span></h2>
                         <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                        <a href="#">View more</a>
+                        <a href="<?php echo esc_url(home_url('/')) ?>educacion">View more</a>
                     </figcaption>
                 </figure>
             </div>
@@ -81,7 +81,7 @@
                     <figcaption>
                         <h2>Fotografía <span>Avanzada</span></h2>
                         <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                        <a href="#">View more</a>
+                        <a href="<?php echo esc_url(home_url('/')) ?>educacion">View more</a>
                     </figcaption>
                 </figure>
             </div>
@@ -89,7 +89,7 @@
 
         </div>
         <div class="text-center">
-            <a href="#" class="btn btn-lg" id="btn-courses">Ver cursos</a>
+            <a href="<?php echo esc_url(home_url('/')) ?>educacion" class="btn btn-lg" id="btn-courses">Ver cursos</a>
         </div>
     </div>
 </section>
@@ -102,25 +102,19 @@
                 <div class="owl-two owl-carousel owl-theme">
                     <div class="owl2-item">
                         <figure>
-                                <a href="<?php echo get_template_directory_uri(); ?>/dist/images/ex-lg-1.jpg" data-lightbox="exhibition-1">
+                                <a href="<?php echo esc_url( home_url( '/' ) ); ?>exhibiciones">
                                     <img src="<?php echo get_template_directory_uri(); ?>/dist/images/ex-sm-1.jpg" alt="Exhibición 1" class="img-fluid">
                                 </a>
-                                <a href="https://www.worldpressphoto.org/sites/default/files/styles/carousal/public/IMG_9197.JPG" data-lightbox="exhibition-1"></a>
-                                <a href="http://www.magnin-a.com/cspdocs/exhibition/images/perpignan_yesican_diop_2016_2.jpg" data-lightbox="exhibition-1"></a>
                                 <figcaption>
                                     <h4>Selección oficial de alumnos</h4>
                                 </figcaption>
-
                         </figure>
                     </div>
                     <div class="owl2-item">
                         <figure>
-                            <a href="<?php echo get_template_directory_uri(); ?>/dist/images/ex-lg-2.jpg" data-lightbox="exhibition-2">
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>exhibiciones">
                                 <img src="<?php echo get_template_directory_uri(); ?>/dist/images/ex-sm-2.jpg" alt="Exhibición 2" class="img-fluid">
                             </a>
-                            <a href="https://chidm.com/visual/img-workatplay.jpg" data-lightbox="exhibition-2"></a>
-                            <a href="http://www.graphicthoughtfacility.com/media/uploads/images/KG-1-WEB_5.jpg" data-lightbox="exhibition-2"></a>
-                            <a href="http://www.adjaye.com/site/assets/files/1841/face_fashion_project_1-1.jpg" data-lightbox="exhibition-2"></a>
                             <figcaption>
                                 <h4>Selección oficial de maestros</h4>
                             </figcaption>
@@ -128,11 +122,9 @@
                     </div>
                     <div class="owl2-item">
                         <figure>
-                            <a href="<?php echo get_template_directory_uri(); ?>/dist/images/ex-lg-3.jpg" data-lightbox="exhibition-3">
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>exhibiciones">
                                 <img src="<?php echo get_template_directory_uri(); ?>/dist/images/ex-sm-3.jpg" alt="Exhibición 3" class="img-fluid">
                             </a>
-                            <a href="https://www.inspireme.ie/uploads/events/1500630014.2467_014_portrait_century.jpg" data-lightbox="exhibition-3"></a>
-                            <a href="https://d1inegp6v2yuxm.cloudfront.net/royal-academy/image/upload/c_limit,f_auto,w_1200/qitaersky1aik2cyiuij.jpg" data-lightbox="exhibition-3"></a>
                             <figcaption>
                                 <h4>Muestras colectivas</h4>
                             </figcaption>
@@ -190,9 +182,9 @@
 
 
 <section id="container-us">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row" id="row-us">
-            <div class="col-6 ml-auto">
+            <div class="col-7 ml-auto">
                 <div id="div-us-text">
                     <h1>¿Quiénes somos?</h1>
                     <p>Creemos firmemente que el <strong>arte</strong> es el camino más hermoso hacia la libertad, por ello no debe ser considerado un lujo, un símbolo de estatus o condición cultural, el <strong>arte</strong> es para todos.</p>
