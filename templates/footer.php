@@ -1,17 +1,16 @@
 <footer id="contacto">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-3">
                 <a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo-white.png" width="140px" alt="Logo Fotoviva blanco" id="logo-white"></a>
-                <p>Lorem ipsum dolor sit amet, consec tetur adipi sicing elit. A ad asper natur culpa dignis simos harum inven tore ipsam</p>
                 <ul>
                     <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/social-1.png" alt="Instagram Fotoviva"></a></li>
                     <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/social-2.png" alt="Facebook Fotoviva"></a></li>
                     <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/social-3.png" alt="Youtube Fotoviva"></a></li>
                 </ul>
                 <ul>
-                    <li>Email: correo@fotoviva.com</li>
-                    <li>Tel: 456 798 32 56</li>
+                    <li><strong>Email:</strong> correo@fotoviva.com</li>
+                    <li><strong>Tel:</strong> 456 798 32 56</li>
                 </ul>
             </div>
             <div class="col-12 col-md-4">
@@ -20,10 +19,15 @@
                     <?php echo do_shortcode( '[contact-form-7 id="31" title="Contact form 1"]' ); ?>
                 </div>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 ml-auto">
                 <div id="div-map">
                     <div class="map">
-                        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/map.jpg" class="img-fluid" alt="">
+                        <iframe
+                                width="100%"
+                                height="280"
+                                frameborder="0" style="border:0"
+                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDhtPB4jhPZAcvPOXhwJjDTA0tV3cCTQgM&q=Fotoviva,Morelia+Michoacán" allowfullscreen>
+                        </iframe>
                     </div>
                 </div>
             </div>

@@ -2,9 +2,10 @@
     <div class="container">
         <div id="filters" class="row button-group">
             <div class="col"><button class="btn btn-block btn-info is-checked active" data-filter="*">Todos</button></div>
-            <div class="col"><button class="btn btn-block btn-info" data-filter=".cursos">Cursos</button></div>
-            <div class="col"><button class="btn btn-block btn-info" data-filter=".talleres">Talleres</button></div>
             <div class="col"><button class="btn btn-block btn-info" data-filter=".especializaciones">Especializaciones</button></div>
+            <div class="col"><button class="btn btn-block btn-info" data-filter=".seminarios">Seminarios</button></div>
+            <div class="col"><button class="btn btn-block btn-info" data-filter=".talleres">Talleres</button></div>
+            <div class="col"><button class="btn btn-block btn-info" data-filter=".clasesAbiertas">Clases abiertas</button></div>
             <div class="col"><button class="btn btn-block btn-info" data-filter=".masterclass">Masterclass</button></div>
         </div>
         <div class="row grid" id="isotope-container">
@@ -13,6 +14,7 @@
             </div>
             <div class="col-4 element-item cursos" data-category="cursos">
                 <img src="https://placeimg.com/800/800/any" alt="Curso" class="img-fluid">
+                <button class="btn btn-light">+Información</button>
             </div>
             <div class="col-4 element-item talleres" data-category="talleres">
                 <img src="https://placeimg.com/700/700/any" alt="Curso" class="img-fluid">

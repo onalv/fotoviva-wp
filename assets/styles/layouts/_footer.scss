@@ -1,7 +1,13 @@
 footer {
   padding: 50px 0;
-  background-color: dimgray;
+  background-color: #2e2e2e;
   color: white;
+
+  form {
+    input {
+      background-color: #3b3b3b;
+    }
+  }
 
   h3 {
     text-transform: uppercase;
@@ -13,11 +19,15 @@ footer {
   ul {
     list-style-type: none;
     padding-left: 0;
-    margin-top: 30px;
+    margin-top: 20px;
 
     li {
       display: inline-block;
       margin-right: 40px;
+
+      img {
+        height: 30px;
+      }
     }
   }
 
