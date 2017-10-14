@@ -131,7 +131,7 @@
                         </figure>
                     </div>
                 </div>
-                <a href="#" class="btn btn-lg" id="btn-exhibitions">Ver Exhibiciones</a>
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>exhibiciones" class="btn btn-lg" id="btn-exhibitions">Ver Exhibiciones</a>
             </div>
             <div class="col-md-6 div-carousel text-center" id="div-services">
                 <h1>Servicios</h1>
@@ -174,7 +174,7 @@
             <div class="col-12 col-md-6 mr-auto ml-auto">
                 <h1>Lo +Nuevo</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cupiditate mollitia neque sit suscipit temporibus unde.</p>
-                <a href="#" class="btn btn-lg btn-light">Más información</a>
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>lo-nuevo" class="btn btn-lg btn-light">Más información</a>
             </div>
         </div>
     </div>
@@ -191,7 +191,7 @@
                     <p>Desde que creamos <strong>FOTOVIVA</strong> hemos buscado rodearnos de los mejores maestros y <strong>artistas</strong> que además de impartir conocimientos, comparten su diaria experiencia en este camino.</p>
                     <p>Nuestros programas de estudio están planeados cuidadosamente para mezclar teoría, práctica y experiencia, de una forma dinámica y relajada, para que con ello el alumno avance progresivamente de manera libre y personal. Además de estar avalados ante la Secretaría de Eduación a nivel Nacional.</p>
                     <p>Las instalaciones y el equipo de <strong>FOTOVIVA</strong> son un esfuerzo por otorgar una experiencia de calidad y comodidad a quienes aprenden en nuestros espacios.</p>
-                    <a href="#" class="btn btn-lg btn-danger">Conoce más</a>
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>nosotros" class="btn btn-lg btn-danger">Conoce más</a>
                 </div>
             </div>
         </div>
