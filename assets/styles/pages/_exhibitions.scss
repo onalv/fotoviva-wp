@@ -3,4 +3,16 @@ section#container-exhibitions {
     margin: 0!important;
     padding: 0!important;
   }
+
+  .exhibition {
+    position: relative;
+
+    h2 {
+      position: absolute;
+      top: 9%;
+      left: 15%;
+      color: #fff;
+      text-transform: capitalize;
+    }
+  }
 }

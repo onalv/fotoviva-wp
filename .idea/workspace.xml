@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bc5b46d-38f4-4a22-984b-06e14a82bdf1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/pages/_exhibitions.scss" afterPath="$PROJECT_DIR$/assets/styles/pages/_exhibitions.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/content-exhibitions.php" afterPath="$PROJECT_DIR$/templates/content-exhibitions.php" />
     </list>
@@ -18,21 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="content-exhibitions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="content-exhibitions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/content-exhibitions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="41" column="56" lean-forward="false" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+            <state relative-caret-position="209">
+              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_exhibitions.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_exhibitions.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/styles/pages/_exhibitions.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="294">
+              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -85,8 +84,8 @@
         <option value="$PROJECT_DIR$/templates/content-us.php" />
         <option value="$PROJECT_DIR$/templates/content-education.php" />
         <option value="$PROJECT_DIR$/assets/styles/pages/_education.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/pages/_exhibitions.scss" />
         <option value="$PROJECT_DIR$/templates/content-exhibitions.php" />
+        <option value="$PROJECT_DIR$/assets/styles/pages/_exhibitions.scss" />
       </list>
     </option>
   </component>
@@ -236,12 +235,12 @@
       <workItem from="1507475030764" duration="257000" />
       <workItem from="1507476511627" duration="21289000" />
       <workItem from="1507681747690" duration="3945000" />
-      <workItem from="1507950501017" duration="9182000" />
+      <workItem from="1507950501017" duration="9639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81913000" />
+    <option name="totallyTimeSpent" value="82370000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -664,18 +663,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/pages/_exhibitions.scss">
+    <entry file="file://$PROJECT_DIR$/templates/content-exhibitions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="209">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/content-exhibitions.php">
+    <entry file="file://$PROJECT_DIR$/assets/styles/pages/_exhibitions.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="41" column="56" lean-forward="false" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+        <state relative-caret-position="294">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding />
         </state>
       </provider>
