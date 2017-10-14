@@ -4,8 +4,8 @@
             <div class="col-12 col-md-3">
                 <a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo-white.png" width="140px" alt="Logo Fotoviva blanco" id="logo-white"></a>
                 <ul>
-                    <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/social-1.png" alt="Instagram Fotoviva"></a></li>
-                    <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/social-2.png" alt="Facebook Fotoviva"></a></li>
+                    <li><a href="https://www.instagram.com/fotoviva_oficial/"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/social-1.png" alt="Instagram Fotoviva"></a></li>
+                    <li><a href="https://www.facebook.com/fotovivamx/"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/social-2.png" alt="Facebook Fotoviva"></a></li>
                     <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/social-3.png" alt="Youtube Fotoviva"></a></li>
                 </ul>
                 <ul>
