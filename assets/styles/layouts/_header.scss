@@ -1,5 +1,6 @@
 nav.navbar {
   background-color: white;
+  box-shadow: 0px 0px 12px 1px darkgrey;
   
   .container {
     position: relative;
@@ -13,7 +14,8 @@ nav.navbar {
         margin-left: 20px;
         padding: 0;
         border-radius: 10px;
-        background-color: #34c6dd;
+        //background-color: #34c6dd;
+        background-color: #2e2e2e;
 
         a {
           color: white;
