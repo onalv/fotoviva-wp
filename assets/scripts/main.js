@@ -122,6 +122,14 @@
           });
       }
     },
+    'lo-nuevo': {
+      init: function() {
+
+      },
+      finalize: function() {
+
+      }
+    },
     'exhibiciones': {
         init: function() {
 
