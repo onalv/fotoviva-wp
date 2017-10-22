@@ -40,60 +40,22 @@
         <h1 class="text-center">Colaboradores Nacionales</h1>
         <div class="row">
             <div class="owl-two owl-carousel owl-theme">
-                <div class="owl-item">
-                    <figure>
-                        <img src="http://electricblaze.com/unicore/page-builder/assets/images/359.jpg" alt="Colaborador 1" class="img-fluid">
-                        <figcaption>
-                            <h4>Omar Mora</h4>
-                            <p>Sed ut unde omnis iste natus error sit accus antium dolor emque laud antium.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="owl-item">
-                    <figure>
-                        <img src="http://electricblaze.com/unicore/page-builder/assets/images/157.jpg" alt="Colaborador 1" class="img-fluid">
-                        <figcaption>
-                            <h4>Sebastián Portillo</h4>
-                            <p>Sed ut unde omnis iste natus error sit accus antium dolor emque laud antium.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="owl-item">
-                    <figure>
-                        <img src="http://electricblaze.com/unicore/page-builder/assets/images/258.jpg" alt="Colaborador 1" class="img-fluid">
-                        <figcaption>
-                            <h4>Andrea Garza</h4>
-                            <p>Sed ut unde omnis iste natus error sit accus antium dolor emque laud antium.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="owl-item">
-                    <figure>
-                        <img src="http://electricblaze.com/unicore/page-builder/assets/images/359.jpg" alt="Colaborador 1" class="img-fluid">
-                        <figcaption>
-                            <h4>Sebastián Portillo</h4>
-                            <p>Sed ut unde omnis iste natus error sit accus antium dolor emque laud antium.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="owl-item">
-                    <figure>
-                        <img src="http://electricblaze.com/unicore/page-builder/assets/images/157.jpg" alt="Colaborador 1" class="img-fluid">
-                        <figcaption>
-                            <h4>Sebastián Portillo</h4>
-                            <p>Sed ut unde omnis iste natus error sit accus antium dolor emque laud antium.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="owl-item">
-                    <figure>
-                        <img src="http://electricblaze.com/unicore/page-builder/assets/images/463.jpg" alt="Colaborador 1" class="img-fluid">
-                        <figcaption>
-                            <h4>Paulina Mejía</h4>
-                            <p>Sed ut unde omnis iste natus error sit accus antium dolor emque laud antium.</p>
-                        </figcaption>
-                    </figure>
-                </div>
+
+                <?php $the_query = new WP_Query( array('post_type' => 'col_nacionales', 'posts_per_page' => 10) ); ?>
+                <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+
+                    <div class="owl-item">
+                        <figure>
+                            <?php the_post_thumbnail( array(480, 360), array( 'class' => 'img-fluid' ) ); ?>
+                            <figcaption>
+                                <h4><?php the_title(); ?></h4>
+                                <p><?php the_field('intro'); ?></p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                <?php endwhile; wp_reset_query(); ?>
+
             </div>
         </div>
     </div>
@@ -102,61 +64,23 @@
     <div class="container">
         <h1 class="text-center">Colaboradores Internacionales</h1>
         <div class="row">
+
             <div class="owl-three owl-carousel owl-theme">
-                <div class="owl-item">
-                    <figure>
-                        <img src="http://electricblaze.com/unicore/page-builder/assets/images/463.jpg" alt="Colaborador 1" class="img-fluid">
-                        <figcaption>
-                            <h4>Sebastián Portillo</h4>
-                            <p>Sed ut unde omnis iste natus error sit accus antium dolor emque laud antium.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="owl-item">
-                    <figure>
-                        <img src="http://electricblaze.com/unicore/page-builder/assets/images/157.jpg" alt="Colaborador 1" class="img-fluid">
-                        <figcaption>
-                            <h4>Steve McCurry</h4>
-                            <p>Sed ut unde omnis iste natus error sit accus antium dolor emque laud antium.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="owl-item">
-                    <figure>
-                        <img src="http://electricblaze.com/unicore/page-builder/assets/images/258.jpg" alt="Colaborador 1" class="img-fluid">
-                        <figcaption>
-                            <h4>Jessica Simpson</h4>
-                            <p>Sed ut unde omnis iste natus error sit accus antium dolor emque laud antium.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="owl-item">
-                    <figure>
-                        <img src="http://electricblaze.com/unicore/page-builder/assets/images/359.jpg" alt="Colaborador 1" class="img-fluid">
-                        <figcaption>
-                            <h4>Sebastián Portillo</h4>
-                            <p>Sed ut unde omnis iste natus error sit accus antium dolor emque laud antium.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="owl-item">
-                    <figure>
-                        <img src="http://electricblaze.com/unicore/page-builder/assets/images/463.jpg" alt="Colaborador 1" class="img-fluid">
-                        <figcaption>
-                            <h4>Britney Kaylor</h4>
-                            <p>Sed ut unde omnis iste natus error sit accus antium dolor emque laud antium.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="owl-item">
-                    <figure>
-                        <img src="http://electricblaze.com/unicore/page-builder/assets/images/258.jpg" alt="Colaborador 1" class="img-fluid">
-                        <figcaption>
-                            <h4>Jasmine Hunterton</h4>
-                            <p>Sed ut unde omnis iste natus error sit accus antium dolor emque laud antium.</p>
-                        </figcaption>
-                    </figure>
-                </div>
+                <?php $the_query = new WP_Query( array('post_type' => 'col_internacionales', 'posts_per_page' => 10) ); ?>
+                <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+
+                    <div class="owl-item">
+                        <figure>
+                            <?php the_post_thumbnail( array(480, 360), array( 'class' => 'img-fluid' ) ); ?>
+                            <figcaption>
+                                <h4><?php the_title(); ?></h4>
+                                <p><?php the_field('intro'); ?></p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                <?php endwhile; wp_reset_query(); ?>
+
             </div>
         </div>
     </div>
