@@ -50,36 +50,23 @@
             <div class="col-md-6 div-carousel text-center" id="div-exhibitions">
                 <h1>Exhibiciones</h1>
                 <div class="owl-two owl-carousel owl-theme">
-                    <div class="owl2-item">
-                        <figure>
-                                <a href="<?php echo esc_url( home_url( '/' ) ); ?>exhibiciones">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/ex-sm-1.jpg" alt="Exhibición 1" class="img-fluid">
-                                </a>
-                                <figcaption>
-                                    <h4>Selección oficial de alumnos</h4>
-                                </figcaption>
-                        </figure>
-                    </div>
-                    <div class="owl2-item">
-                        <figure>
-                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>exhibiciones">
-                                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/ex-sm-2.jpg" alt="Exhibición 2" class="img-fluid">
-                            </a>
-                            <figcaption>
-                                <h4>Selección oficial de maestros</h4>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="owl2-item">
-                        <figure>
-                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>exhibiciones">
-                                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/ex-sm-3.jpg" alt="Exhibición 3" class="img-fluid">
-                            </a>
-                            <figcaption>
-                                <h4>Muestras colectivas</h4>
-                            </figcaption>
-                        </figure>
-                    </div>
+
+                    <?php $the_query = new WP_Query( array('post_type' => 'exhibicion', 'posts_per_page' => 6) ); ?>
+                    <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+
+                        <div class="owl2-item">
+                            <figure>
+                                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>exhibiciones">
+                                        <?php the_post_thumbnail( array(720, 480), array( 'class' => 'img-fluid' ) ); ?>
+                                    </a>
+                                    <figcaption>
+                                        <h4><?php the_title(); ?></h4>
+                                    </figcaption>
+                            </figure>
+                        </div>
+
+                    <?php endwhile; wp_reset_query(); ?>
+
                 </div>
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>exhibiciones" class="btn btn-lg" id="btn-exhibitions">Ver Exhibiciones</a>
             </div>
