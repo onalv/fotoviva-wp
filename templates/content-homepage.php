@@ -24,68 +24,21 @@
     <div class="container">
         <div class="row">
 
+            <?php $the_query = new WP_Query( array('post_type' => 'cursos', 'posts_per_page' => 6) ); ?>
+            <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
-            <div class="col-12 col-md-6 col-xl-4 grid">
-                <figure class="effect-milo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-1.jpg" alt="img11"/>
-                    <figcaption>
-                        <h2>Fotografía <span>Básica</span></h2>
-                        <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                        <a href="<?php echo esc_url(home_url('/')) ?>educacion">View more</a>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 grid">
-                <figure class="effect-milo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-2.jpg" alt="img11"/>
-                    <figcaption>
-                        <h2>Fotografía <span>Contemporánea</span></h2>
-                        <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                        <a href="<?php echo esc_url(home_url('/')) ?>educacion">View more</a>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 grid">
-                <figure class="effect-milo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-3.jpg" alt="img11"/>
-                    <figcaption>
-                        <h2>Retrato de <span>Moda</span></h2>
-                        <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                        <a href="<?php echo esc_url(home_url('/')) ?>educacion">View more</a>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 grid">
-                <figure class="effect-milo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-4.jpg" alt="img11"/>
-                    <figcaption>
-                        <h2>Fotografía para <span>Cine</span></h2>
-                        <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                        <a href="<?php echo esc_url(home_url('/')) ?>educacion">View more</a>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 grid">
-                <figure class="effect-milo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-5.jpg" alt="img11"/>
-                    <figcaption>
-                        <h2>Taller de <span>Arte</span></h2>
-                        <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                        <a href="<?php echo esc_url(home_url('/')) ?>educacion">View more</a>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 grid">
-                <figure class="effect-milo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/course-6.jpg" alt="img11"/>
-                    <figcaption>
-                        <h2>Fotografía <span>Avanzada</span></h2>
-                        <p>Milo went to the woods. He took a fun ride and never came back.</p>
-                        <a href="<?php echo esc_url(home_url('/')) ?>educacion">View more</a>
-                    </figcaption>
-                </figure>
-            </div>
+                <div class="col-12 col-md-6 col-xl-4 grid">
+                    <figure class="effect-milo">
+                        <?php the_post_thumbnail( array(480, 360), array( 'class' => 'img-fluid' ) ); ?>
+                        <figcaption>
+                            <h2><?php the_field('tipo'); ?> de <span><?php the_title(); ?></span></h2>
+                            <p><?php the_field('resumen'); ?></p>
+                            <a href="<?php echo esc_url(home_url('/')) ?>educacion">View more</a>
+                        </figcaption>
+                    </figure>
+                </div>
 
+            <?php endwhile; wp_reset_query(); ?>
 
         </div>
         <div class="text-center">

@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4bc5b46d-38f4-4a22-984b-06e14a82bdf1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scripts/main.js" afterPath="$PROJECT_DIR$/assets/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/pages/_new.scss" afterPath="$PROJECT_DIR$/assets/styles/pages/_new.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/content-new.php" afterPath="$PROJECT_DIR$/templates/content-new.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/content-homepage.php" afterPath="$PROJECT_DIR$/templates/content-homepage.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,42 +17,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="content-new.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/content-new.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content-exhibitions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/content-exhibitions.php">
+      <file leaf-file-name="content-homepage.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/content-homepage.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/scripts/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_new.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/styles/pages/_new.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+              <caret line="33" column="60" lean-forward="false" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+              <folding>
+                <marker date="1508697116483" expanded="true" signature="2334:2375" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,13 +78,13 @@
         <option value="$PROJECT_DIR$/assets/styles/pages/_education.scss" />
         <option value="$PROJECT_DIR$/templates/content-exhibitions.php" />
         <option value="$PROJECT_DIR$/assets/styles/pages/_exhibitions.scss" />
-        <option value="$PROJECT_DIR$/templates/content-homepage.php" />
         <option value="$PROJECT_DIR$/templates/header.php" />
         <option value="$PROJECT_DIR$/assets/styles/layouts/_header.scss" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/assets/styles/pages/_new.scss" />
         <option value="$PROJECT_DIR$/templates/content-new.php" />
         <option value="$PROJECT_DIR$/assets/scripts/main.js" />
+        <option value="$PROJECT_DIR$/templates/content-homepage.php" />
       </list>
     </option>
   </component>
@@ -272,12 +241,12 @@
       <workItem from="1507681747690" duration="3945000" />
       <workItem from="1507950501017" duration="11039000" />
       <workItem from="1508214347926" duration="1336000" />
-      <workItem from="1508386647080" duration="16140000" />
+      <workItem from="1508386647080" duration="19368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101246000" />
+    <option name="totallyTimeSpent" value="104474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -656,20 +625,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/content-homepage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1377">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding>
-            <marker date="1507963632614" expanded="true" signature="5082:5123" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/content-education.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="31" column="118" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -698,19 +673,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
+    <entry file="file://$PROJECT_DIR$/templates/content-homepage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="210">
+          <caret line="33" column="60" lean-forward="false" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <marker date="1508697116483" expanded="true" signature="2334:2375" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
