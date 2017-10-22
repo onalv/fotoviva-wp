@@ -1,21 +1,18 @@
 <section id="container-hero">
     <div class="container-fluid">
         <div class="hero owl-one owl-carousel owl-theme">
-            <div class="owl-item" id="owl-1">
-                <a href="#">
-                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/bg-hero-1.jpg" alt="Hero 1">
-                </a>
-            </div>
-            <div class="owl-item" id="owl-2">
-                <a href="#">
-                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/bg-hero-2.jpg" alt="Hero 1">
-                </a>
-            </div>
-            <div class="owl-item" id="owl-3">
-                <a href="#">
-                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/bg-hero-3.jpg" alt="Hero 1">
-                </a>
-            </div>
+
+            <?php $the_query = new WP_Query( array('post_type' => 'sliders', 'posts_per_page' => 6) ); ?>
+            <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+
+                <div class="owl-item">
+                    <a href="<?php echo esc_url(home_url('/')) ?>educacion">
+                        <?php the_post_thumbnail( array(1600, 400), array( 'class' => 'img-fluid' ) ); ?>
+                    </a>
+                </div>
+
+            <?php endwhile; wp_reset_query(); ?>
+
         </div>
     </div>
 </section>
