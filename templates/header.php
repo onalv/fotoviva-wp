@@ -8,16 +8,17 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <ul class="navbar-nav" id="navbar-fixed-top">
-            <li style="background-color: transparent;">
-                <a href="https://www.instagram.com/fotoviva_oficial/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/social-1-gray.png" alt="Instagram Fotoviva"></a></li>
-            <li style="background-color: transparent;">
-                <a href="https://www.facebook.com/fotovivamx/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/social-2-gray.png" alt="Facebook Fotoviva"></a></li>
             <li class="nav-item">
                 <a class="nav-link" href="tel:4564567789">Tel: (456) 4567-789 <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="mailto:contacto@fotoviva.mx">contacto@fotoviva.mx</a>
             </li>
+            <li style="background-color: transparent;">
+                <a href="https://www.instagram.com/fotoviva_oficial/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/social-1-gray.png" alt="Instagram Fotoviva"></a></li>
+            <li style="background-color: transparent;">
+                <a href="https://www.facebook.com/fotovivamx/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/social-2-gray.png" alt="Facebook Fotoviva"></a></li>
+
         </ul>
 
         <?php
