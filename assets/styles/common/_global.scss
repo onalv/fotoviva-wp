@@ -10,4 +10,8 @@ body {
 //to level content due to fixed menu
 div.wrap {
   margin-top: 150px;
+
+  @media screen and (max-width: 991px) {
+    margin-top: 90px;
+  }
 }

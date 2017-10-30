@@ -47,7 +47,7 @@
 <section id="carousels">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 div-carousel text-center" id="div-exhibitions">
+            <div class="col-12 col-lg-6 div-carousel text-center" id="div-exhibitions">
                 <h1>Exhibiciones</h1>
                 <div class="owl-two owl-carousel owl-theme">
 
@@ -70,7 +70,7 @@
                 </div>
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>exhibiciones" class="btn btn-lg" id="btn-exhibitions">Ver Exhibiciones</a>
             </div>
-            <div class="col-md-6 div-carousel text-center" id="div-services">
+            <div class="col-12 col-lg-6 div-carousel text-center" id="div-services">
                 <h1>Servicios</h1>
                 <div class="owl-three owl-carousel owl-theme">
                     <div class="owl3-item" id="owl3-1">
@@ -121,7 +121,7 @@
 <section id="container-us">
     <div class="container">
         <div class="row" id="row-us">
-            <div class="col-7 ml-auto">
+            <div class="col-xs-12 col-md-8 ml-md-auto mr-md-auto col-xl-7 ml-xl-auto">
                 <div id="div-us-text">
                     <h1>¿Quiénes somos?</h1>
                     <p>Creemos firmemente que el <strong>arte</strong> es el camino más hermoso hacia la libertad, por ello no debe ser considerado un lujo, un símbolo de estatus o condición cultural, el <strong>arte</strong> es para todos.</p>
