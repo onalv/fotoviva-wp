@@ -3,21 +3,26 @@
 <section id="container-page-education">
     <div class="container">
         <div id="filters" class="row button-group">
-            <div class="col"><button class="btn btn-block btn-dark is-checked active" data-filter="*">Todos</button></div>
-            <div class="col"><button class="btn btn-block btn-dark" data-filter=".especializacion">Especializaciones</button></div>
-            <div class="col"><button class="btn btn-block btn-dark" data-filter=".seminario">Seminarios</button></div>
-            <div class="col"><button class="btn btn-block btn-dark" data-filter=".taller">Talleres</button></div>
-            <div class="col"><button class="btn btn-block btn-dark" data-filter=".clase">Clases abiertas</button></div>
-            <div class="col"><button class="btn btn-block btn-dark" data-filter=".masterclass">Masterclass</button></div>
+            <div class="col"><button class="btn btn-block btn-dark btn-filter is-checked active" data-filter="*">Todos</button></div>
+            <div class="col"><button class="btn btn-block btn-dark btn-filter" data-filter=".especializacion">Especializaciones</button></div>
+            <div class="col"><button class="btn btn-block btn-dark btn-filter" data-filter=".seminario">Seminarios</button></div>
+            <div class="col"><button class="btn btn-block btn-dark btn-filter" data-filter=".taller">Talleres</button></div>
+            <div class="col"><button class="btn btn-block btn-dark btn-filter" data-filter=".clase">Clases abiertas</button></div>
+            <div class="col"><button class="btn btn-block btn-dark btn-filter" data-filter=".masterclass">Masterclass</button></div>
         </div>
         <div class="row grid" id="isotope-container">
 
             <?php $the_query = new WP_Query( array('post_type' => 'cursos', 'posts_per_page' => 100) ); ?>
             <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
-                <div class="col-4 element-item <?php the_field('tipo'); ?>" data-category="<?php the_field('tipo'); ?>">
-                    <?php the_post_thumbnail( array(480, 360), array( 'class' => 'img-fluid' ) ); ?>
-                    <h2><?php the_field('tipo'); ?> de <span><?php the_title(); ?></span></h2>
+                <div class="col-12 col-md-6 col-xl-4 grid-milo element-item <?php the_field('tipo'); ?>" data-category="<?php the_field('tipo'); ?>">
+                    <figure class="effect-milo">
+                        <?php the_post_thumbnail( array(480, 360), array( 'class' => 'img-fluid' ) ); ?>
+                        <figcaption>
+                            <h2><?php the_field('tipo'); ?> de <span><?php the_title(); ?></span></h2>
+                            <p><?php the_field('resumen'); ?></p>
+                        </figcaption>
+                    </figure>
 
                     <button class="btn btn-light btn-course" data-toggle="modal" data-target=".modalCursos-<?php echo $counter; ?>">+Info</button>
                     <!-- Large modal -->

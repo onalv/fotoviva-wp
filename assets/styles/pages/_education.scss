@@ -4,6 +4,10 @@
   #filters {
     margin-bottom: 30px;
 
+    .btn-filter {
+      margin-bottom: 10px;
+    }
+
     button.is-checked {
       background-color: #a3a3a3;
       //border-color: #a3a3a3;
@@ -11,28 +15,37 @@
     }
   }
 
-  .element-item {
-    margin-bottom: 30px;
-    position: relative;
-
-    img {
-      border-radius: 20px;
-    }
-
-    h2 {
-      position: absolute;
-      top: 30px;
-      left: 60px;
-      text-transform: capitalize;
-      color: #fff;
-      width: 50%;
-    }
-
-    button.btn-course {
-      position: absolute;
-      bottom: 33px;
-      right: 45px;
-      padding: 5px 20px;
-    }
+  button.btn-course {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 1px 10px;
+    font-size: 14px;
+    cursor: pointer;
   }
+
+  //.element-item {
+  //  margin-bottom: 30px;
+  //  position: relative;
+  //
+  //  img {
+  //    border-radius: 20px;
+  //  }
+  //
+  //  h2 {
+  //    position: absolute;
+  //    top: 30px;
+  //    left: 60px;
+  //    text-transform: capitalize;
+  //    color: #fff;
+  //    width: 50%;
+  //  }
+  //
+  //  button.btn-course {
+  //    position: absolute;
+  //    bottom: 33px;
+  //    right: 45px;
+  //    padding: 5px 20px;
+  //  }
+  //}
 }
