@@ -59,7 +59,8 @@
           items:1,
           loop:true,
           autoplay:true,
-          autoplayTimeout:4000
+          autoplayTimeout:4000,
+          margin: 10
         });
       }
     },
