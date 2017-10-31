@@ -76,7 +76,6 @@
                     <div class="owl3-item" id="owl3-1">
                         <div class="col-md-8 mr-auto ml-auto div-text">
                             <img src="<?php echo get_template_directory_uri(); ?>/dist/images/services-1.jpg" alt="Servicio 1" class="img-fluid">
-<!--                            <h2>Renta de Estudio</h2>-->
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur facilis inventore obcaecati odio officia quam quod sapiente? Cumque harum ipsa nam quidem. Adipisci aut ducimus eius esse laboriosam reprehenderit sunt.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur facilis inventore obcaecati odio officia quam quod sapiente? Cumque harum ipsa nam quidem. Adipisci aut ducimus eius esse laboriosam reprehenderit sunt.</p>
                         </div>
@@ -84,7 +83,6 @@
                     <div class="owl3-item" id="owl3-2">
                         <div class="col-md-8 mr-auto ml-auto div-text">
                             <img src="<?php echo get_template_directory_uri(); ?>/dist/images/services-2.jpg" alt="Servicio 2" class="img-fluid">
-<!--                            <h2>Renta de Aulas</h2>-->
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur corporis cupiditate doloremque dolorum, ea eligendi harum illum incidunt iste laborum magnam molestias necessitatibus neque perspiciatis, recusandae suscipit temporibus voluptatibus.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur corporis cupiditate doloremque dolorum, ea eligendi harum illum incidunt iste laborum magnam molestias necessitatibus neque perspiciatis, recusandae suscipit temporibus voluptatibus.</p>
                         </div>
@@ -92,7 +90,6 @@
                     <div class="owl3-item" id="owl3-3">
                         <div class="col-md-8 mr-auto ml-auto div-text">
                             <img src="<?php echo get_template_directory_uri(); ?>/dist/images/services-3.jpg" alt="Servicio 3" class="img-fluid">
-<!--                            <h2>Asesorías</h2>-->
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita natus quasi rerum similique unde. Dolorum, est eum ex inventore minus molestias nobis nulla provident quas quo reprehenderit veritatis vero voluptas.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita natus quasi rerum similique unde. Dolorum, est eum ex inventore minus molestias nobis nulla provident quas quo reprehenderit veritatis vero voluptas.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita natus quasi rerum similique unde. Dolorum, est eum ex inventore minus molestias nobis nulla provident quas quo reprehenderit veritatis vero voluptas.</p>
@@ -121,7 +118,7 @@
 <section id="container-us">
     <div class="container">
         <div class="row" id="row-us">
-            <div class="col-xs-12 col-md-8 ml-md-auto mr-md-auto col-xl-7 ml-xl-auto">
+            <div class="col-xs-12 col-md-8 ml-md-auto mr-md-auto col-lg-7 ml-lg-auto mr-lg-0">
                 <div id="div-us-text">
                     <h1>¿Quiénes somos?</h1>
                     <p>Creemos firmemente que el <strong>arte</strong> es el camino más hermoso hacia la libertad, por ello no debe ser considerado un lujo, un símbolo de estatus o condición cultural, el <strong>arte</strong> es para todos.</p>
