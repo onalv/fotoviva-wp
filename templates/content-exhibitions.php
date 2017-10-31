@@ -7,7 +7,7 @@
             <?php $the_query = new WP_Query( array('post_type' => 'exhibicion', 'posts_per_page' => 100) ); ?>
             <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
-                <div class="col-4 exhibition">
+                <div class="col-12 col-md-6 col-xl-4 exhibition">
                     <a href="<?php the_post_thumbnail_url(); ?>" data-lightbox="page-exhibition-<?php echo $counter; ?>">
                         <?php the_post_thumbnail( array(720, 480), array( 'class' => 'img-fluid' ) ); ?>
                     </a>

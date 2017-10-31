@@ -21,19 +21,23 @@
     <div class="container">
         <div class="row">
 
-            <?php $the_query = new WP_Query( array('post_type' => 'cursos', 'posts_per_page' => 6) ); ?>
+            <?php $the_query = new WP_Query( array('post_type' => 'cursos', 'posts_per_page' => 100) ); ?>
             <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
-                <div class="col-12 col-md-6 col-xl-4 grid-milo">
-                    <figure class="effect-milo">
-                        <?php the_post_thumbnail( array(480, 360), array( 'class' => 'img-fluid' ) ); ?>
-                        <figcaption>
-                            <h2><?php the_field('tipo'); ?> de <span><?php the_title(); ?></span></h2>
-                            <p><?php the_field('resumen'); ?></p>
-                            <a href="<?php echo esc_url(home_url('/')) ?>educacion">View more</a>
-                        </figcaption>
-                    </figure>
-                </div>
+                <?php if(get_field('pagina_principal')) :  ?>
+
+                    <div class="col-12 col-md-6 col-xl-4 grid-milo">
+                        <figure class="effect-milo">
+                            <?php the_post_thumbnail( array(480, 360), array( 'class' => 'img-fluid' ) ); ?>
+                            <figcaption>
+                                <h2><?php the_field('tipo'); ?> de <span><?php the_title(); ?></span></h2>
+                                <p><?php the_field('resumen'); ?></p>
+                                <a href="<?php echo esc_url(home_url('/')) ?>educacion">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <?php endif; ?>
 
             <?php endwhile; wp_reset_query(); ?>
 
