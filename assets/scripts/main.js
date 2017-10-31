@@ -79,19 +79,47 @@
           });
 
           $('.owl-two').owlCarousel({
-              items:4,
               loop:true,
               autoplay:true,
               autoplayTimeout: 4000,
-              margin: 30
+              margin: 30,
+              responsive: {
+                  0: {
+                      items: 1
+                  },
+                  425: {
+                      items: 2
+                  },
+                  768: {
+                      items: 3
+                  },
+                  1024: {
+                      items: 4
+                  }
+
+              }
           });
 
           $('.owl-three').owlCarousel({
-              items:4,
               loop:true,
               autoplay:true,
               autoplayTimeout: 5000,
-              margin: 30
+              margin: 30,
+              responsive: {
+                  0: {
+                      items: 1
+                  },
+                  425: {
+                      items: 2
+                  },
+                  768: {
+                      items: 3
+                  },
+                  1024: {
+                      items: 4
+                  }
+
+              }
           });
         }
     },

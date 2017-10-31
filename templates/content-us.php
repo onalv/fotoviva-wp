@@ -22,14 +22,14 @@
 <section id="container-nuestro-centro">
     <div class="container">
         <div class="row">
-            <div class="col-6 div-text">
+            <div class="col-12 col-md-6 div-text">
                 <h1>Nuestro Centro</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dicta hic libero nostrum similique? Dolores, earum eos esse fuga impedit neque perspiciatis quasi? Beatae commodi dolor ducimus inventore nesciunt, quam?</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dicta hic libero nostrum similique? Dolores, earum eos esse fuga impedit neque perspiciatis quasi? Beatae commodi dolor ducimus inventore nesciunt, quam?</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dicta hic libero nostrum similique? Dolores, earum eos esse fuga impedit neque perspiciatis quasi? Beatae commodi dolor ducimus inventore nesciunt, quam?</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dicta hic libero nostrum similique? Dolores, earum eos esse fuga impedit neque perspiciatis quasi? Beatae commodi dolor ducimus inventore nesciunt, quam?</p>
             </div>
-            <div class="col-6 div-img">
+            <div class="col-12 col-md-6 div-img">
                 <img src="<?php echo get_template_directory_uri(); ?>/dist/images/estudio.jpg" alt="Foto Estudio" class="img-fluid">
             </div>
         </div>
