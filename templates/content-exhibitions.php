@@ -27,7 +27,8 @@
                         }
                     ?>
 
-                    <h2><?php the_title(); ?></h2>
+<!--                    <h2>--><?php //the_title(); ?><!--</h2>-->
+                    <h2>Exhibición <span><hr><?php the_title(); ?></span></h2>
                 </div>
 
             <?php $counter++; ?>

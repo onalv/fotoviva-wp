@@ -70,4 +70,3 @@
         </div>
     </div>
 </section>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nemo, rerum! A aliquid animi atque cum debitis ipsum laudantium nihil porro possimus quae quasi quidem quo repellendus, unde ut voluptate!

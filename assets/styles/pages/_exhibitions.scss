@@ -8,13 +8,29 @@ section#container-exhibitions {
     position: relative;
     padding: 0;
 
-    h2 {
+    /*h2 {
       position: absolute;
       bottom: 9%;
       left: 10%;
       color: #fff;
       text-transform: capitalize;
       text-shadow: 3px 3px 5px rgba(34, 34, 34, 0.82);
+    }*/
+    h2 {
+      position: absolute;
+      margin: 0;
+      bottom: 16%;
+      left: 10%;
+      line-height: 0;
+      color: #fff;
+      font-weight: 300;
+      font-size: 1.8rem;
+      text-shadow: 3px 3px 5px rgba(34, 34, 34, 0.82);
+      //word-spacing: -0.15em;
+
+      span {
+        font-weight: 800;
+      }
     }
   }
 }
