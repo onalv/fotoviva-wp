@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row">
 
-            <?php $the_query = new WP_Query( array('post_type' => 'cursos', 'posts_per_page' => 100) ); ?>
+            <?php $the_query = new WP_Query( array('post_type' => 'product', 'posts_per_page' => 100) ); ?>
             <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
                 <?php if(get_field('pagina_principal')) :  ?>
@@ -32,7 +32,7 @@
                             <figcaption>
                                 <h2><?php the_field('tipo'); ?> de <span><?php the_title(); ?></span></h2>
                                 <p><?php the_field('resumen'); ?></p>
-                                <a href="<?php echo esc_url(home_url('/')) ?>educacion">View more</a>
+                                <a href="/producto/<?php echo sanitize_title_with_dashes( get_the_title() ); ?>">View more</a>
                             </figcaption>
                         </figure>
                     </div>

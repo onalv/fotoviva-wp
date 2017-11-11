@@ -12,7 +12,7 @@
         </div>
         <div class="row grid" id="isotope-container">
 
-            <?php $the_query = new WP_Query( array('post_type' => 'cursos', 'posts_per_page' => 100) ); ?>
+            <?php $the_query = new WP_Query( array('post_type' => 'product', 'posts_per_page' => 100) ); ?>
             <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
                 <div class="col-12 col-md-6 col-xl-4 grid-milo element-item <?php the_field('tipo'); ?>" data-category="<?php the_field('tipo'); ?>">
@@ -21,6 +21,7 @@
                         <figcaption>
                             <h2><?php the_field('tipo'); ?> de <span><?php the_title(); ?></span></h2>
                             <p><?php the_field('resumen'); ?></p>
+<!--                            <a href="/producto/--><?php //echo sanitize_title_with_dashes( get_the_title() ); ?><!--">View more</a>-->
                         </figcaption>
                     </figure>
 
@@ -55,7 +56,7 @@
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-success">Comprar</button>
+                                    <a href="/producto/<?php echo sanitize_title_with_dashes( get_the_title() ); ?>" class="btn btn-success">Comprar</a>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
@@ -69,3 +70,4 @@
         </div>
     </div>
 </section>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nemo, rerum! A aliquid animi atque cum debitis ipsum laudantium nihil porro possimus quae quasi quidem quo repellendus, unde ut voluptate!

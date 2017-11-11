@@ -15,6 +15,7 @@ function setup() {
   add_theme_support('soil-nice-search');
   add_theme_support('soil-jquery-cdn');
   add_theme_support('soil-relative-urls');
+  add_theme_support('woocommerce');
 
   // Make theme available for translation
   // Community translations can be found at https://github.com/roots/sage-translations
@@ -85,6 +86,7 @@ function display_sidebar() {
     // @link https://codex.wordpress.org/Conditional_Tags
     is_404(),
     is_front_page(),
+    is_woocommerce(),
     is_page_template('template-us.php'),
     is_page_template('template-education.php'),
     is_page_template('template-new.php'),
@@ -107,3 +109,6 @@ function assets() {
   wp_enqueue_script('sage/js', Assets\asset_path('scripts/main.js'), ['jquery'], null, true);
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);
+
+/*For making work woocommerce*/
+remove_all_actions('woocommerce_sidebar');
