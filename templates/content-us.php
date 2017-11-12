@@ -41,10 +41,11 @@
         <div class="row">
             <div class="owl-two owl-carousel owl-theme">
 
-                <?php $the_query = new WP_Query( array('post_type' => 'col_nacionales', 'posts_per_page' => 10) ); ?>
+                <?php $the_query = new WP_Query( array('post_type' => 'col_nacionales', 'posts_per_page' => 20) ); ?>
+                <?php $counter = 1; ?>
                 <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
-                    <div class="owl-item">
+                    <div class="owl-item" data-toggle="modal" data-target=".modalColaboradoresNacionales-<?php echo $counter; ?>">
                         <figure>
                             <?php the_post_thumbnail( array(480, 360), array( 'class' => 'img-fluid' ) ); ?>
                             <figcaption>
@@ -54,6 +55,7 @@
                         </figure>
                     </div>
 
+                <?php $counter++; ?>
                 <?php endwhile; wp_reset_query(); ?>
 
             </div>
@@ -66,10 +68,11 @@
         <div class="row">
 
             <div class="owl-three owl-carousel owl-theme">
-                <?php $the_query = new WP_Query( array('post_type' => 'col_internacionales', 'posts_per_page' => 10) ); ?>
+                <?php $the_query = new WP_Query( array('post_type' => 'col_internacionales', 'posts_per_page' => 20) ); ?>
+                <?php $counter = 1; ?>
                 <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
-                    <div class="owl-item">
+                    <div class="owl-item" data-toggle="modal" data-target=".modalColaboradoresInternacionales-<?php echo $counter; ?>">
                         <figure>
                             <?php the_post_thumbnail( array(480, 360), array( 'class' => 'img-fluid' ) ); ?>
                             <figcaption>
@@ -79,9 +82,72 @@
                         </figure>
                     </div>
 
+                <?php $counter++; ?>
                 <?php endwhile; wp_reset_query(); ?>
 
             </div>
         </div>
     </div>
 </section>
+
+<!--Modal information for colaboradores nacionales - Data out of owl carousel to avoid problems -->
+<?php $the_query = new WP_Query( array('post_type' => 'col_nacionales', 'posts_per_page' => 20) ); ?>
+<?php $counter = 1; ?>
+<?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+
+    <div class="modal fade modalColaboradoresNacionales-<?php echo $counter; ?>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title"><?php the_title(); ?></h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <p><?php the_content(); ?></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<?php $counter++; ?>
+<?php endwhile; wp_reset_query(); ?>
+
+<!--Modal information for colaboradores Internacionales - Data out of owl carousel to avoid problems -->
+<?php $the_query = new WP_Query( array('post_type' => 'col_internacionales', 'posts_per_page' => 20) ); ?>
+<?php $counter = 1; ?>
+<?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+
+    <div class="modal fade modalColaboradoresInternacionales-<?php echo $counter; ?>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title"><?php the_title(); ?></h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <p><?php the_content(); ?></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<?php $counter++; ?>
+<?php endwhile; wp_reset_query(); ?>
