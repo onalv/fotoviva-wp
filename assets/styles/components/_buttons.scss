@@ -9,3 +9,12 @@ a.btn {
     font-size: 1.2rem;
   }
 }
+
+button.btn-course {
+  position: absolute;
+  bottom: 27px;
+  right: 27px;
+  padding: 5px 24px;
+  font-size: 14px;
+  cursor: pointer;
+}

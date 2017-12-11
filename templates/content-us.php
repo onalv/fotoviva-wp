@@ -24,10 +24,9 @@
         <div class="row">
             <div class="col-12 col-md-6 div-text">
                 <h1>Nuestro Centro</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dicta hic libero nostrum similique? Dolores, earum eos esse fuga impedit neque perspiciatis quasi? Beatae commodi dolor ducimus inventore nesciunt, quam?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dicta hic libero nostrum similique? Dolores, earum eos esse fuga impedit neque perspiciatis quasi? Beatae commodi dolor ducimus inventore nesciunt, quam?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dicta hic libero nostrum similique? Dolores, earum eos esse fuga impedit neque perspiciatis quasi? Beatae commodi dolor ducimus inventore nesciunt, quam?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dicta hic libero nostrum similique? Dolores, earum eos esse fuga impedit neque perspiciatis quasi? Beatae commodi dolor ducimus inventore nesciunt, quam?</p>
+                <p>Nuestros programas de estudio están planeados cuidadosamente para mezclar teoría, práctica y experiencia de una forma dinámica y relajada, para que con ello el alumno avance progresivamente de manera libre y personal. Además de estar avalados ante la Secretaría de Eduación a nivel Nacional.</p>
+                <p>Las instalaciones y el equipo de <strong>FOTOVIVA</strong> son un esfuerzo por otorgar una experiencia cálida y confortable a quienes aprenden en nuestros espacios.</p>
+                </p>
             </div>
             <div class="col-12 col-md-6 div-img">
                 <img src="<?php echo get_template_directory_uri(); ?>/dist/images/estudio.jpg" alt="Foto Estudio" class="img-fluid">
