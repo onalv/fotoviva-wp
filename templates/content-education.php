@@ -56,7 +56,7 @@
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="/producto/<?php echo sanitize_title_with_dashes( get_the_title() ); ?>" class="btn btn-success">Comprar</a>
+                                    <a href="/producto/<?php echo sanitize_title_with_dashes( get_the_title() ); ?>" class="btn btn-success">Inscribirme</a>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>

@@ -119,13 +119,13 @@
                     <div class="owl3-item" id="owl3-1">
                         <div class="col-md-8 mr-auto ml-auto div-text">
                             <img src="<?php echo get_template_directory_uri(); ?>/dist/images/services-1.jpg" alt="Servicio 1" class="img-fluid">
-                            <p>Fotoviva cuenta con un estudio de fotografía equipado con cicloramas de papel y tela, antorchas, rebotadores, banderas y accesorios para su renta por hora. El costo para estudiantes es de $250 por hora, solicita más información para conocer los requisitos y tramite de renta.</p>
+                            <p>Contamos con 4 aulas disponibles para clases, conferencias o reuniones pedagógicas, equipadas con sillas, mesas, audio, video e internet. El costo es variable dependiendo de los requerimientos del solicitante. Solicita más información para conocer los requisitos y tramite de renta.</p>
                         </div>
                     </div>
                     <div class="owl3-item" id="owl3-2">
                         <div class="col-md-8 mr-auto ml-auto div-text">
                             <img src="<?php echo get_template_directory_uri(); ?>/dist/images/services-2.jpg" alt="Servicio 2" class="img-fluid">
-                            <p>Contamos con 4 aulas disponibles para clases, conferencias o reuniones pedagógicas, equipadas con sillas, mesas, audio, video e internet. El costo es variable dependiendo de los requerimientos del solicitante. Solicita más información para conocer los requisitos y tramite de renta.</p>
+                            <p>Fotoviva cuenta con un estudio de fotografía equipado con cicloramas de papel y tela, antorchas, rebotadores, banderas y accesorios para su renta por hora. El costo para estudiantes es de $250 por hora, solicita más información para conocer los requisitos y tramite de renta.</p>
                         </div>
                     </div>
                     <div class="owl3-item" id="owl3-3">

@@ -103,7 +103,7 @@
           $('.owl-three').owlCarousel({
               loop:true,
               autoplay:true,
-              autoplayTimeout: 5000,
+              autoplayTimeout: 6000,
               margin: 30,
               responsive: {
                   0: {
