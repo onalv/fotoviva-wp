@@ -29,7 +29,8 @@
 }
 
 #container-nuestro-centro {
-  padding: 50px 0;
+  //padding: 50px 0;
+  padding: 80px 0;
 
   .div-text {
     padding-right: 10%;
@@ -42,7 +43,7 @@
   }
 
   .div-img {
-    padding-top: 100px;
+    //padding-top: 100px;
 
     @media screen and (max-width: 767px){
       padding-top: 20px;
@@ -61,6 +62,10 @@
     @media screen and (max-width: 424px){
       padding-left: 10px;
       padding-right: 10px;
+    }
+
+    figure {
+      cursor: pointer;
     }
   }
 
