@@ -26,7 +26,7 @@
                                 width="100%"
                                 height="280"
                                 frameborder="0" style="border:0"
-                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDhtPB4jhPZAcvPOXhwJjDTA0tV3cCTQgM&q=Fotoviva,Morelia+Michoacán" allowfullscreen>
+                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAHFUA5NDOOnWnETHt0sPtVakBzpOfibsw&q=Fotoviva,Morelia+Michoacán" allowfullscreen>
                         </iframe>
                     </div>
                 </div>
