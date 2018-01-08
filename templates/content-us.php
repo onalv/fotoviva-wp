@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="hero owl-one owl-carousel owl-theme">
 
-            <?php $the_query = new WP_Query( array('post_type' => 'sliders', 'posts_per_page' => 20) ); ?>
+            <?php $the_query = new WP_Query( array('post_type' => 'sliders', 'posts_per_page' => 20, 'order' => 'ASC') ); ?>
             <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
                 <div class="owl-item">
@@ -26,7 +26,7 @@
                 </p>
             </div>
             <div class="col-12 col-md-6 div-img">
-                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/estudio.jpg" alt="Foto Estudio" class="img-fluid">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/nosotros.jpg" alt="Foto Estudio" class="img-fluid">
             </div>
         </div>
     </div>

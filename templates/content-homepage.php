@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="hero owl-one owl-carousel owl-theme">
 
-            <?php $the_query = new WP_Query( array('post_type' => 'sliders', 'posts_per_page' => 20, 'order' => 'ASC') ); ?>
+            <?php $the_query = new WP_Query( array('post_type' => 'sliders', 'posts_per_page' => 20) ); ?>
             <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
                 <div class="owl-item">
@@ -146,7 +146,12 @@
         <div class="row">
             <div class="col-12 col-md-6 mr-auto ml-auto">
                 <h1>Lo +Nuevo</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cupiditate mollitia neque sit suscipit temporibus unde.</p>
+
+                <?php $the_query = new WP_Query( array('post_type' => 'noticias', 'posts_per_page' => 1) ); ?>
+                <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+                    <?php the_excerpt(); ?>
+                <?php endwhile; wp_reset_query(); ?>
+
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>lo-nuevo" class="btn btn-lg btn-light">Más información</a>
             </div>
         </div>
