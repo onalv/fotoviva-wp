@@ -11,6 +11,8 @@
                 <ul>
                     <li><strong>Email:</strong> correo@fotoviva.com</li>
                     <li><strong>Tel:</strong> 456 798 32 56</li>
+                    <li><strong>Direccion:</strong> Morelos Sur 308</li>
+                    <li>Col. Centro Morelia</li>
                 </ul>
             </div>
             <div class="col-12 col-lg-4">
