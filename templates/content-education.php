@@ -44,9 +44,20 @@
                                             </div>
                                             <div class="col-6">
                                                 <ul>
-                                                    <li>Precio: $<?php the_field('precio'); ?></li>
-                                                    <li>Duración de curso: 6 semanas</li>
-                                                    <li>Nivel: Intermedio</li>
+                                                    <li><strong>Precio:</strong> $<?php echo get_post_meta( get_the_ID(), '_regular_price', true); ?></li>
+<!--                                                    <li>Precio: $--><?php //echo get_post_meta( get_the_ID(), '_sale_price', true); ?><!--</li>-->
+                                                    <li><strong>Duración:</strong> <?php the_field('duracion') ?> horas</li>
+                                                    <li><strong>Fecha de inicio:</strong>
+                                                        <?php
+                                                            if(get_field('disponible') == False) {
+                                                                echo '<span class="text-danger">No disponible</span>';
+                                                            } else {
+                                                                $dateformatstring = "l d F, Y";
+                                                                $unixtimestamp = strtotime(get_field('fecha'));
+                                                                echo date_i18n($dateformatstring, $unixtimestamp);
+                                                            }
+                                                        ?>
+                                                    </li>
                                                 </ul>
                                             </div>
                                             <div class="col-12 mt-3">
@@ -56,7 +67,9 @@
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="/producto/<?php echo sanitize_title_with_dashes( get_the_title() ); ?>" class="btn btn-success">Inscribirme</a>
+                                    <?php if(get_field('disponible') == True) { ?>
+                                        <a href="/producto/<?php echo sanitize_title_with_dashes( get_the_title() ); ?>" class="btn btn-success">Inscribirme</a>
+                                    <?php } ?>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
