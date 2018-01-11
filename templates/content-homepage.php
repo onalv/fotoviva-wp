@@ -94,7 +94,7 @@
                 <h1>Exhibiciones</h1>
                 <div class="owl-two owl-carousel owl-theme">
 
-                    <?php $the_query = new WP_Query( array('post_type' => 'exhibicion', 'posts_per_page' => 6) ); ?>
+                    <?php $the_query = new WP_Query( array('post_type' => 'exhibicion', 'posts_per_page' => 12) ); ?>
                     <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
                         <div class="owl2-item">

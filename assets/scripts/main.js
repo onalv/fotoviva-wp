@@ -44,8 +44,9 @@
             items:1,
             loop:true,
             autoplay:true,
-            autoplayTimeout:5000,
-            dots: false
+            autoplayTimeout:8000,
+            dots: false,
+            animateOut: 'fadeOut'
         });
 
         $('.owl-two').owlCarousel({
@@ -59,7 +60,7 @@
           items:1,
           loop:true,
           autoplay:true,
-          autoplayTimeout:7000,
+          autoplayTimeout:10000,
           margin: 10
         });
       }
