@@ -29,6 +29,24 @@
                 $('.img-logo').removeClass('shrink');
             }
         });
+
+        //Smooth transition
+        //padding for fixed navs
+        var topOffset = 55;
+
+        $('a[href*="#"]').click(function() {
+          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+              if (target.length) {
+                  $('html, body').animate({
+                      scrollTop: target.offset().top - topOffset
+                  }, 1000);
+                  return false;
+              }
+          }
+        });
+
       }
     },
     // Home page
