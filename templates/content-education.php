@@ -14,6 +14,7 @@
 
             <?php $the_query = new WP_Query( array('post_type' => 'product', 'posts_per_page' => 100) ); ?>
             <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+            <?php if (get_field('mostrar')) { ?>
 
                 <div class="col-12 col-md-6 col-xl-4 grid-milo element-item <?php the_field('tipo'); ?>" data-category="<?php the_field('tipo'); ?>">
                     <figure class="effect-milo">
@@ -77,6 +78,7 @@
                     </div>
                 </div>
 
+            <?php } ?>
             <?php $counter++; ?>
             <?php endwhile; wp_reset_query(); ?>
 
