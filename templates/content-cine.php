@@ -18,7 +18,7 @@
         </div>
         <h3>Áreas a cursar</h3>
         <div class="row">
-            <div class="col-8">
+            <div class="col-12 col-md-7">
                 <h4>Módulo 1</h4>
                 <ul>
                     <li>lorem</li>
@@ -44,7 +44,7 @@
                     <li>lorem</li>
                 </ul>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-5">
                 <p>
                     <span>INSCRIPCIÓN $4,400</span><br>
                     <span>COSTO POR MÓDULO</span><br>

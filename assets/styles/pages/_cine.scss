@@ -3,6 +3,10 @@ div#video {
   height: 500px;
   overflow: hidden;
 
+  @media screen and (max-width: 991px){
+    height: auto;
+  }
+
   video {
     width: 100%;
     background-size: cover;
@@ -15,14 +19,28 @@ section#cine {
   padding-bottom: 50px;
   text-align: justify;
 
+  @media screen and (max-width: 767px){
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
   h1 {
     margin-bottom: 30px;
     color: #152269;
+
+    @media screen and (max-width: 767px){
+      margin-bottom: 10px;
+      text-align: left;
+    }
   }
 
   h3 {
     margin-top: 40px;
     margin-bottom: 25px;
     color: #00bfff;
+
+    @media screen and (max-width: 767px){
+      margin-top: 20px;
+    }
   }
 }
