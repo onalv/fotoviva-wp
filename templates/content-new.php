@@ -1,7 +1,7 @@
 <section id="new">
     <div class="card-columns">
 
-        <?php $the_query = new WP_Query( array('post_type' => 'noticias', 'posts_per_page' => 6) ); ?>
+        <?php $the_query = new WP_Query( array('post_type' => 'noticias') ); ?>
         <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
             <div class="card">

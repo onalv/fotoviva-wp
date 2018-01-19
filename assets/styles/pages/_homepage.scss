@@ -85,10 +85,10 @@
       }
 
       h2 {
-        word-spacing: -0.15em;
+        word-spacing: 0;
         font-weight: 300;
         margin: 0;
-        font-size: 1.8rem;
+        font-size: 1.2rem;
 
         span {
           font-weight: 800;
@@ -97,8 +97,8 @@
 
       p {
         margin: 0;
-        letter-spacing: 1px;
-        font-size: 68.5%;
+        letter-spacing: 0.3px;
+        font-size: 65.5%;
       }
     }
   }
@@ -142,13 +142,13 @@ figure.effect-milo {
   h2 {
     position: absolute;
     right: 0;
-    bottom: 15px;
+    bottom: 36px;
     padding: 1em 1.2em;
   }
 
   p {
     padding: 0 10px 0 0;
-    width: 70%;
+    width: 108%;
     border-right: 1px solid #fff;
     text-align: right;
     opacity: 0;
@@ -158,25 +158,6 @@ figure.effect-milo {
     transform: translate3d(-40px,0,0);
   }
 }
-
-
-
-  /*
-
-  @media screen and (max-width: 50em) {
-      .content {
-          padding: 0 10px;
-          text-align: center;
-      }
-      .grid figure {
-          display: inline-block;
-          float: none;
-          margin: 10px auto;
-          width: 100%;
-      }
-  }
-  */
-
 
   /* *** Courses section *** */
 
