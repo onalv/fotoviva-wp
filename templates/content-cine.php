@@ -6,21 +6,13 @@
     </video>
 </div>
 
+<?php while(have_posts()) : the_post(); ?>
 <section id="cine">
     <div class="container">
         <div class="row">
             <div class="col">
                 <h1>Diplomado en Artes y Ciencias Cinematográficas</h1>
-                <p>
-                    Dirigido a jóvenes y adultos que aspiran a convertirse en creadores de cine digital, por medio de una intensa formación en los fundamentos, procesos y canales necesarios para producir contenidos audiovisuales, que se adapten a las necesidades y circunstancias socioculturales, artísticas, publicitarias o conceptuales de la realidad actual dentro de la industria cinematográfica.
-                    Nuestro master consta de 720 horas teórico prácticas, distribuidas durante 9 meses, en 3 niveles especializados de 240 horas cada uno; ellos abarcan en un nivel exhaustivo las etapas de preproducción, producción y postproducción.
-                </p>
-                <p>
-                    El cine es un arte colectivo y este master se ha diseñado desde las principales áreas de la cinematografía, para ofrecer así una visión global y especializada de la estructura requerida en un proyecto de cine, que encause a los alumnos a que descubran su perfil y determinen su lugar dentro del universo de una producción.
-                    A lo largo de estos 9 meses, se llevarán a cabo masterclasses con invitados especiales: directores, productores, cinefotógrafos, guionistas, entre otros, que complementarán y reforzarán el desarrollo y la experiencia de los alumnos.
-                    Hemos hecho una selección de los mejores cineastas y realizadores locales con la finalidad de ofrecer una visión real, fresca y cercana a las nuevas tendencias, quienes compartirán sus conocimientos a partir de su experiencia en decenas de producciones, en las cuales han logrado recibir premios, selecciones de festivales y reconocimiento como creadores.
-                    Creemos en la libertad creativa y la experimentación constante como los medios más efectivos para la creación artística. No tenemos límites, somos creados imparables.
-                </p>
+                <?php the_content(); ?>
             </div>
         </div>
         <h3>Áreas a cursar</h3>
@@ -54,8 +46,8 @@
             </div>
             <div class="col-12 col-md-5">
                 <p>
-                    <span><strong>INSCRIPCIÓN:</strong>  $350.00</span><br>
-                    <span><strong>COSTO POR MÓDULO:</strong> $2,200.00</span><br>
+                    <span><strong>INSCRIPCIÓN:</strong> $<?php the_field('costo'); ?></span><br>
+                    <span><strong>COSTO POR MÓDULO:</strong> $<?php the_field('costo_por_modulo'); ?></span><br>
                     <span><strong>DESCUENTO MASTER</strong></span><br>
                     <span><strong>CLASES OPCIONALES:</strong> 60%</span><br>
                 </p>
@@ -77,3 +69,4 @@
         </div>
     </div>
 </section>
+<?php endwhile; ?>
