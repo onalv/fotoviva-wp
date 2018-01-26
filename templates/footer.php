@@ -45,13 +45,13 @@
         </div>
         <div class="row text-center mt-5">
             <div class="col-12">
-                <span><a href="https://fotoviva.mx/aviso-de-privacidad">| Aviso de privacidad </a></span>
-                <span><a href="https://fotoviva.mx/terminos-y-condiciones">| Términos y condiciones |</a></span>
+                <span><a href="https://fotoviva.mx/aviso-de-privacidad" target="_blank">| Aviso de privacidad </a></span>
+                <span><a href="https://fotoviva.mx/terminos-y-condiciones" target="_blank">| Términos y condiciones |</a></span>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-12">
-                <span>Sitio web diseñado por <strong><a href="www.senza.mx">Senza</a></strong>
+                <span>Sitio web diseñado por <strong><a href="www.senza.mx" target="_blank">Senza</a></strong>
             </div>
         </div>
     </div>
