@@ -72,6 +72,7 @@
                     <li>Último grado de estudios</li>
                     <li>Aplicar favorablemente Test de selección</li>
                 </ul>
+                <a href="#" class="btn btn-primary mt-5">Descargar</a>
             </div>
         </div>
     </div>
