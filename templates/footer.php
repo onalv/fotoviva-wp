@@ -17,7 +17,7 @@
                                     alt="Youtube Fotoviva"></a></li>
                 </ul>
                 <ul>
-                    <li><strong>Email:</strong> correo@fotoviva.com</li>
+                    <li><strong>Email:</strong> correo@fotoviva.mx</li>
                     <li><strong>Tel:</strong> (443) 312-6983</li>
                     <li><strong>Direccion:</strong> Morelos Sur 308</li>
                     <li>Col. Centro Morelia</li>
@@ -45,8 +45,8 @@
         </div>
         <div class="row text-center mt-5">
             <div class="col-12">
-                <span><a href="https://fotoviva.mx/aviso-de-privacidad" target="_blank">| Aviso de privacidad </a></span>
-                <span><a href="https://fotoviva.mx/terminos-y-condiciones" target="_blank">| Términos y condiciones |</a></span>
+                <span><a href="https://fotoviva.mx/aviso-de-privacidad">| Aviso de privacidad </a></span>
+                <span><a href="https://fotoviva.mx/terminos-y-condiciones">| Términos y condiciones |</a></span>
             </div>
         </div>
         <div class="row text-center">

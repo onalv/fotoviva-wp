@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="hero owl-one owl-carousel owl-theme">
 
-            <?php $the_query = new WP_Query( array('post_type' => 'sliders', 'posts_per_page' => 20) ); ?>
+            <?php $the_query = new WP_Query( array('post_type' => 'sliders', 'posts_per_page' => 6) ); ?>
             <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
                 <div class="owl-item">
