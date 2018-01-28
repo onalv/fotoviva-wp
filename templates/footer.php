@@ -51,7 +51,7 @@
         </div>
         <div class="row text-center">
             <div class="col-12">
-                <span>Sitio web diseñado por <strong><a href="www.senza.mx" target="_blank">Senza</a></strong>
+                <span>Sitio web diseñado por <strong><a href="http://www.senza.mx" target="_blank">Senza</a></strong>
             </div>
         </div>
     </div>
