@@ -50,10 +50,10 @@
                                     <div class="modal-body">
                                         <div class="container-fluid">
                                             <div class="row">
-                                                <div class="col-6">
+                                                <div class="col-md-6 col-12">
                                                     <?php the_post_thumbnail( array(480, 360), array( 'class' => 'img-fluid' ) ); ?>
                                                 </div>
-                                                <div class="col-6">
+                                                <div class="col-md-6 col-12 mt-2">
                                                     <ul>
                                                         <li><strong>Precio:</strong> $<?php echo get_post_meta( get_the_ID(), '_regular_price', true); ?></li>
                                                         <!--                                                    <li>Precio: $--><?php //echo get_post_meta( get_the_ID(), '_sale_price', true); ?><!--</li>-->
