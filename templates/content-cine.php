@@ -64,7 +64,7 @@
                     <li>Último grado de estudios</li>
                     <li>Aplicar favorablemente Test de selección</li>
                 </ul>
-                <a href="#" class="btn btn-primary mt-5">Descargar</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSenUM4gv2i3i4KqibHfgxcOSAGJPSLwbZ4GecuyrBSPjEOtTw/viewform" target="_blank" class="btn btn-primary mt-5">Aplicar</a>
             </div>
         </div>
     </div>
