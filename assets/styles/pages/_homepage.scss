@@ -11,7 +11,7 @@
         height: 50vh;
 
         @media screen and (max-width: 767px) {
-          height: 25vh;
+          height: 14vh;
         }
 
         img {
@@ -23,7 +23,7 @@
           z-index: -1;
 
           @media screen and (max-width: 767px) {
-            height: 25vh;
+            height: auto;
           }
         }
       }
@@ -43,7 +43,6 @@
     margin-top: 15px;
     margin-bottom: 15px;
     background: #3085a3;
-    //cursor: pointer;
 
     img {
       position: relative;
