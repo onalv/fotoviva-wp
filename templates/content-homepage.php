@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row">
 
-            <?php $the_query = new WP_Query( array('post_type' => 'product', 'posts_per_page' => 100) ); ?>
+            <?php $the_query = new WP_Query( array('post_type' => 'product', 'posts_per_page' => 6) ); ?>
             <?php $counter = 1; ?>
             <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
