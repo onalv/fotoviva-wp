@@ -3,7 +3,7 @@
         <source src="<?php echo get_template_directory_uri(); ?>/video/video_fotocine.webm" type='video/webm; codecs="vp8, vorbis"' />
         <source src="<?php echo get_template_directory_uri(); ?>/video/video_fotocine.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
         <source src="<?php echo get_template_directory_uri(); ?>/video/video_fotocine.ogv" type='video/ogg; codecs="theora, vorbis"' />
-        Video tag not supported. Download the video <a href="movie.webm">here</a>.
+        Video tag not supported.
     <video>
 </div>
 
