@@ -1,9 +1,10 @@
 <div id="video">
-    <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline controls autoplay loop>
-        <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-        <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">
-        <source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4">
-    </video>
+    <video id="bgvid" playsinline controls autoplay>
+        <source src="<?php echo get_template_directory_uri(); ?>/video/video_fotocine.webm" type='video/webm; codecs="vp8, vorbis"' />
+        <source src="<?php echo get_template_directory_uri(); ?>/video/video_fotocine.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+        <source src="<?php echo get_template_directory_uri(); ?>/video/video_fotocine.ogv" type='video/ogg; codecs="theora, vorbis"' />
+        Video tag not supported. Download the video <a href="movie.webm">here</a>.
+    <video>
 </div>
 
 <?php while(have_posts()) : the_post(); ?>
